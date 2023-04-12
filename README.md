@@ -2,7 +2,7 @@
 Group Project
 
 ## Data Set 
-NAEP
+education data ...
 
 ## Question
 What factors best predict mathematics achievement?
@@ -12,3 +12,6 @@ PostgreSQL
 
 ## The Plan
 Supervised Machine Learning, categorical?
+
+## Communication Protocol
+Small group created in Slack
