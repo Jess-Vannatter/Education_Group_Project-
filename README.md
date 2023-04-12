@@ -17,5 +17,5 @@ PostgreSQL
 Supervised Machine Learning, categorical?
 
 ## Communication Protocol
-Small group created in Slack
+A small group created in Slack. The expectation is that responses to a post is made by end of day. It is expected that group members would check Slack minimally, once per day. The protocol can be revisited during each class meeting to determine if it is meeting the group's needs.
 
