@@ -12,6 +12,7 @@ What factors best predict mathematics achievement?
 
 ## Tools
 PostgreSQL
+
 Jupyter Notebook
 
 ## The Plan
