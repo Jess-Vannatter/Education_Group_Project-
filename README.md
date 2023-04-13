@@ -5,8 +5,7 @@ Group Project
 The project will focus will focus on the education realm, specifically mathematics achievement. Two of the three members are currently classroom teachers and are passionate about student learning. 
 
 ### Data Source 
-We chose to use a "fictional" dataset due to the ethical and legal concerns about using real student data. 
-The data was generated from the following website (http://roycekimmons.com/tools/generated_data/exams)
+We chose to use a "fictional" dataset due to the ethical and legal concerns about using real student data. The data was generated from the following website (http://roycekimmons.com/tools/generated_data/exams). 
 
 ### Question
 What factors best predict mathematics achievement?
