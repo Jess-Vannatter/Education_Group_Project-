@@ -5,7 +5,7 @@ Our group decided to focus our final project on Mathematics Achievement.  Having
 ## Data Set 
 We went directly to the National Assessment of Educational Progress (NAEP) website to gather some data.  After using their query interface and attempting to download data, we quickly identified that we could easily get overwhelmed with data collection due to the vastness of the NAEP data.  We then pursues a more streamlined datasource so that we could focus more on the question at hand.
 ### Data Dictionary
-The dataset that we chose is a simulated dataset, collected from three US high schools,  that contains information on mathematics performance/achievement of high school students. The dataset includes their scores in Math, reading, and writing and other demographic information. 
+The dataset that we chose is a simulated dataset that contains information on mathematics performance/achievement of high school students. The dataset includes their scores in Math, reading, and writing and other demographic information. 
 ![Alt text](https://github.com/Jess-Vannatter/Education_Group_Project-/blob/Erica_dev/Resources/Data_Dictionary.png)
 
 
