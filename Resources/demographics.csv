@@ -1,0 +1,1001 @@
+Student_ID,gender,Ethnicity,PLE,Lunch,Test_Prep
+00001,female,group D,some college,standard,completed
+00002,male,group D,associate,standard,none
+00003,female,group D,some college,reduced,none
+00004,male,group B,some college,reduced,none
+00005,female,group D,associate,standard,none
+00006,male,group C,some high school,standard,none
+00007,female,group E,associate,standard,none
+00008,female,group B,some high school,standard,none
+00009,male,group C,some high school,standard,none
+00010,female,group C,bachelor,standard,completed
+00011,male,group B,some high school,standard,none
+00012,male,group B,master,standard,none
+00013,male,group B,bachelor,reduced,none
+00014,male,group A,some college,standard,none
+00015,male,group C,master's degree,reduced,none
+00016,male,group E,master,reduced,none
+00017,female,group C,some college,reduced,none
+00018,female,group C,high school,standard,none
+00019,female,group E,associate,reduced,none
+00020,female,group D,associate,standard,completed
+00021,male,group C,high school,reduced,none
+00022,female,group D,associate,standard,completed
+00023,female,group B,some college,standard,none
+00024,male,group E,associate,standard,none
+00025,male,group D,associate,standard,completed
+00026,male,group B,some college,standard,none
+00027,male,group D,high school,reduced,none
+00028,male,group D,some high school,standard,none
+00029,female,group E,associate,standard,none
+00030,male,group D,associate,standard,none
+00031,female,group B,associate,standard,completed
+00032,female,group D,associate,reduced,none
+00033,female,group B,high school,reduced,completed
+00034,female,group D,master,reduced,none
+00035,male,group D,high school,standard,completed
+00036,female,group A,some high school,standard,none
+00037,female,group E,some college,reduced,none
+00038,male,group D,associate,standard,completed
+00039,male,group C,associate,reduced,completed
+00040,male,group E,master,standard,none
+00041,male,group C,associate,reduced,completed
+00042,male,group C,associate,standard,completed
+00043,male,group B,high school,standard,none
+00044,male,group D,some college,standard,none
+00045,female,group B,high school,standard,none
+00046,male,group C,bachelor,standard,none
+00047,male,group A,associate,standard,completed
+00048,male,group C,some college,standard,completed
+00049,female,group E,high school,standard,none
+00050,male,group D,some high school,standard,completed
+00051,female,group E,high school,reduced,completed
+00052,female,group E,master,reduced,completed
+00053,male,group D,some high school,standard,none
+00054,female,group B,some college,standard,completed
+00055,male,group C,high school,standard,none
+00056,female,group C,some college,standard,none
+00057,female,group D,master,standard,none
+00058,female,group E,some high school,standard,completed
+00059,female,group C,bachelor,standard,none
+00060,male,group C,some high school,standard,none
+00061,male,group D,some high school,standard,completed
+00062,male,group C,some high school,reduced,completed
+00063,female,group D,some college,reduced,none
+00064,female,group C,associate,standard,none
+00065,female,group B,high school,reduced,none
+00066,female,group B,associate,reduced,none
+00067,male,group C,high school,reduced,none
+00068,female,group B,some high school,reduced,completed
+00069,female,group C,high school,reduced,none
+00070,male,group D,associate,standard,none
+00071,male,group C,some high school,standard,completed
+00072,female,group D,some college,reduced,completed
+00073,female,group C,some high school,standard,none
+00074,female,group D,some high school,reduced,completed
+00075,male,group E,some college,standard,completed
+00076,male,group B,bachelor,standard,none
+00077,male,group B,associate,reduced,completed
+00078,male,group C,some college,standard,none
+00079,male,group A,associate,standard,completed
+00080,male,group B,high school,standard,none
+00081,male,group C,associate,standard,none
+00082,male,group D,master,reduced,completed
+00083,female,group A,some college,standard,none
+00084,male,group C,some college,standard,completed
+00085,female,group D,some college,standard,none
+00086,male,group D,master,standard,none
+00087,female,group D,some high school,standard,completed
+00088,male,group E,some college,standard,none
+00089,male,group B,master,standard,none
+00090,male,group C,bachelor,standard,none
+00091,male,group C,associate,reduced,completed
+00092,female,group C,bachelor,standard,none
+00093,male,group C,some college,standard,none
+00094,male,group D,some college,standard,none
+00095,female,group C,some college,standard,none
+00096,female,group C,associate,standard,completed
+00097,female,group D,some college,standard,completed
+00098,female,group B,associate,standard,none
+00099,female,group B,high school,reduced,completed
+00100,male,group C,some college,reduced,none
+00101,male,group D,high school,standard,none
+00102,male,group C,bachelor,standard,none
+00103,male,group D,associate,standard,none
+00104,female,group C,some college,reduced,none
+00105,female,group C,high school,reduced,none
+00106,female,group D,some high school,standard,none
+00107,female,group B,some high school,standard,completed
+00108,female,group B,some high school,standard,none
+00109,male,group C,associate,reduced,completed
+00110,male,group E,some college,standard,none
+00111,female,group D,some high school,reduced,completed
+00112,female,group B,bachelor,standard,none
+00113,female,group C,some college,standard,completed
+00114,female,group C,master,standard,completed
+00115,female,group B,associate,standard,completed
+00116,female,group E,bachelor,standard,none
+00117,female,group E,high school,standard,none
+00118,male,group C,high school,reduced,completed
+00119,female,group B,high school,reduced,none
+00120,female,group B,bachelor,standard,none
+00121,male,group D,high school,standard,completed
+00122,male,group D,master,standard,none
+00123,female,group D,associate,reduced,completed
+00124,female,group B,high school,standard,none
+00125,female,group D,bachelor,reduced,completed
+00126,female,group E,some college,standard,none
+00127,male,group B,associate,standard,completed
+00128,female,group D,some high school,standard,completed
+00129,female,group C,associate,standard,none
+00130,female,group C,some college,reduced,none
+00131,female,group C,associate,reduced,none
+00132,female,group C,some college,standard,none
+00133,male,group D,some high school,reduced,completed
+00134,male,group D,master,standard,none
+00135,female,group C,master,standard,completed
+00136,male,group C,some college,standard,none
+00137,female,group E,master,standard,none
+00138,female,group E,master,standard,none
+00139,female,group D,some college,reduced,none
+00140,male,group C,high school,standard,none
+00141,male,group C,some college,standard,none
+00142,female,group D,high school,standard,none
+00143,male,group C,high school,standard,none
+00144,male,group E,bachelor,standard,none
+00145,female,group D,associate,standard,none
+00146,female,group A,bachelor,standard,completed
+00147,male,group D,some high school,standard,none
+00148,female,group E,associate,standard,none
+00149,male,group C,bachelor,standard,none
+00150,female,group C,master,standard,none
+00151,male,group D,high school,standard,completed
+00152,male,group B,master,standard,none
+00153,female,group C,high school,standard,none
+00154,male,group A,master,standard,none
+00155,male,group E,some college,standard,none
+00156,female,group B,associate,reduced,none
+00157,female,group B,associate,standard,completed
+00158,male,group C,associate,reduced,completed
+00159,male,group B,some college,standard,completed
+00160,female,group D,associate,standard,none
+00161,male,group E,associate,standard,none
+00162,male,group C,associate,standard,none
+00163,male,group D,high school,standard,completed
+00164,male,group B,associate,reduced,completed
+00165,male,group A,some college,standard,none
+00166,male,group E,bachelor,standard,none
+00167,female,group C,associate,standard,none
+00168,female,group E,some high school,reduced,none
+00169,male,group D,high school,standard,completed
+00170,female,group D,bachelor,reduced,completed
+00171,female,group B,some college,standard,completed
+00172,male,group D,some college,reduced,none
+00173,female,group A,some high school,standard,completed
+00174,male,group E,master,standard,none
+00175,male,group D,some high school,standard,none
+00176,female,group D,master,standard,none
+00177,female,group B,some high school,standard,none
+00178,male,group E,high school,standard,none
+00179,female,group C,associate,reduced,completed
+00180,male,group C,associate,standard,none
+00181,female,group B,high school,standard,none
+00182,female,group B,associate,standard,none
+00183,male,group A,master,reduced,none
+00184,female,group A,high school,standard,completed
+00185,male,group B,master,reduced,completed
+00186,female,group D,master,reduced,none
+00187,female,group C,high school,standard,none
+00188,male,group C,some college,standard,none
+00189,female,group D,some college,standard,none
+00190,female,group C,bachelor,standard,none
+00191,male,group C,bachelor,standard,none
+00192,female,group A,some high school,standard,completed
+00193,male,group B,some high school,standard,none
+00194,male,group D,some high school,reduced,completed
+00195,female,group D,high school,reduced,none
+00196,male,group D,associate,standard,none
+00197,male,group C,some college,standard,completed
+00198,female,group B,master,standard,none
+00199,female,group C,associate,reduced,completed
+00200,female,group E,some college,standard,completed
+00201,female,group A,some college,reduced,completed
+00202,male,group D,some college,reduced,none
+00203,female,group B,high school,standard,none
+00204,male,group E,high school,standard,none
+00205,female,group B,associate,standard,none
+00206,female,group B,associate,standard,none
+00207,male,group C,some college,standard,none
+00208,male,group E,master,reduced,none
+00209,male,group C,high school,reduced,none
+00210,male,group C,some high school,standard,completed
+00211,male,group E,master,reduced,none
+00212,female,group E,some high school,reduced,completed
+00213,female,group E,some college,standard,none
+00214,male,group B,master,standard,none
+00215,male,group A,some high school,standard,none
+00216,male,group D,associate,reduced,completed
+00217,female,group D,high school,standard,none
+00218,male,group A,some high school,reduced,completed
+00219,female,group D,high school,standard,none
+00220,female,group E,high school,standard,none
+00221,male,group C,master,standard,none
+00222,female,group E,high school,reduced,completed
+00223,female,group C,master,reduced,completed
+00224,female,group E,some high school,standard,none
+00225,female,group D,some college,standard,none
+00226,male,group B,associate,standard,none
+00227,male,group D,some college,standard,completed
+00228,female,group E,some high school,standard,none
+00229,male,group C,high school,reduced,none
+00230,female,group C,some high school,standard,none
+00231,male,group B,high school,reduced,completed
+00232,female,group E,associate,reduced,none
+00233,female,group B,some college,standard,none
+00234,male,group C,bachelor,standard,none
+00235,male,group D,some college,reduced,completed
+00236,female,group C,associate,standard,none
+00237,male,group B,bachelor,standard,completed
+00238,female,group B,some high school,reduced,completed
+00239,male,group D,some college,reduced,completed
+00240,male,group B,some high school,standard,none
+00241,male,group B,bachelor,standard,completed
+00242,female,group D,some high school,reduced,none
+00243,female,group D,some college,standard,none
+00244,female,group B,high school,reduced,none
+00245,male,group C,high school,standard,completed
+00246,male,group C,high school,standard,completed
+00247,female,group C,associate,reduced,completed
+00248,male,group C,high school,standard,none
+00249,male,group A,high school,standard,completed
+00250,female,group C,high school,standard,none
+00251,female,group C,some college,standard,none
+00252,male,group C,high school,reduced,none
+00253,male,group B,bachelor,standard,completed
+00254,female,group B,bachelor,standard,completed
+00255,male,group D,bachelor,standard,none
+00256,male,group B,some college,standard,none
+00257,female,group B,high school,reduced,none
+00258,male,group C,master,reduced,completed
+00259,female,group B,associate,standard,completed
+00260,male,group C,some college,standard,none
+00261,male,group C,some high school,standard,none
+00262,female,group D,some high school,reduced,completed
+00263,male,group B,some college,reduced,none
+00264,female,group A,associate,standard,none
+00265,female,group C,some college,standard,none
+00266,female,group C,high school,reduced,none
+00267,female,group D,some high school,standard,none
+00268,female,group D,master,reduced,none
+00269,female,group D,high school,reduced,none
+00270,female,group C,some college,reduced,completed
+00271,female,group C,some college,standard,none
+00272,female,group D,some college,reduced,completed
+00273,female,group E,high school,reduced,none
+00274,male,group C,associate,standard,none
+00275,male,group D,associate,standard,none
+00276,female,group B,high school,standard,none
+00277,female,group D,master,standard,none
+00278,female,group C,master,standard,completed
+00279,male,group A,associate,standard,none
+00280,female,group A,associate,reduced,none
+00281,female,group C,bachelor,reduced,none
+00282,male,group C,some high school,standard,none
+00283,female,group C,high school,standard,none
+00284,female,group B,high school,reduced,none
+00285,female,group B,some college,standard,completed
+00286,male,group E,some college,standard,completed
+00287,male,group A,some college,standard,none
+00288,male,group B,bachelor,reduced,none
+00289,female,group C,bachelor,standard,none
+00290,female,group A,master,standard,none
+00291,male,group C,high school,standard,none
+00292,female,group D,associate,standard,none
+00293,female,group E,associate,standard,none
+00294,female,group C,bachelor,reduced,none
+00295,male,group D,master,standard,none
+00296,male,group C,bachelor,reduced,none
+00297,female,group B,some college,reduced,completed
+00298,male,group D,high school,standard,none
+00299,female,group B,some high school,standard,none
+00300,female,group C,high school,standard,completed
+00301,female,group C,associate,standard,none
+00302,female,group D,some high school,standard,none
+00303,female,group B,bachelor,standard,completed
+00304,female,group A,some high school,standard,none
+00305,male,group E,high school,reduced,completed
+00306,female,group C,bachelor,reduced,completed
+00307,female,group B,high school,reduced,none
+00308,female,group A,high school,standard,none
+00309,male,group B,bachelor,standard,completed
+00310,female,group C,some college,standard,none
+00311,male,group D,high school,standard,completed
+00312,male,group E,some high school,reduced,none
+00313,female,group D,high school,standard,completed
+00314,male,group C,master,standard,none
+00315,male,group A,some high school,standard,none
+00316,female,group D,some college,standard,none
+00317,female,group D,high school,reduced,none
+00318,male,group A,some college,reduced,none
+00319,female,group C,some college,standard,none
+00320,male,group C,some high school,standard,none
+00321,male,group C,some high school,standard,completed
+00322,female,group B,some high school,standard,none
+00323,male,group C,associate,reduced,completed
+00324,female,group D,some high school,standard,completed
+00325,male,group B,some college,reduced,none
+00326,female,group C,associate,standard,none
+00327,male,group D,associate,reduced,none
+00328,male,group D,some college,reduced,none
+00329,female,group C,high school,standard,completed
+00330,female,group D,some college,standard,none
+00331,female,group E,some high school,standard,none
+00332,male,group D,associate,standard,none
+00333,male,group C,high school,standard,none
+00334,male,group C,some high school,reduced,none
+00335,male,group D,some college,reduced,none
+00336,female,group B,high school,reduced,none
+00337,female,group B,associate,reduced,none
+00338,female,group C,bachelor,reduced,completed
+00339,female,group B,high school,reduced,completed
+00340,female,group D,bachelor,reduced,completed
+00341,female,group B,associate,standard,none
+00342,male,group B,associate,standard,none
+00343,female,group D,some college,standard,none
+00344,female,group B,high school,reduced,completed
+00345,male,group D,associate,standard,none
+00346,male,group B,some college,standard,none
+00347,male,group B,some college,standard,none
+00348,male,group B,bachelor,standard,none
+00349,male,group B,some college,reduced,none
+00350,female,group C,associate,standard,none
+00351,male,group A,some college,standard,none
+00352,female,group B,some high school,standard,none
+00353,male,group C,some college,standard,none
+00354,male,group B,some college,reduced,none
+00355,male,group A,high school,standard,completed
+00356,male,group D,associate,standard,none
+00357,female,group C,some college,standard,completed
+00358,female,group B,some high school,standard,none
+00359,female,group B,master,standard,completed
+00360,male,group C,some college,standard,completed
+00361,female,group B,master,standard,none
+00362,female,group C,high school,standard,none
+00363,male,group E,high school,standard,completed
+00364,male,group E,some high school,standard,none
+00365,male,group B,some college,reduced,completed
+00366,male,group C,bachelor,standard,completed
+00367,female,group B,some high school,reduced,none
+00368,female,group C,bachelor,reduced,completed
+00369,female,group C,some high school,reduced,none
+00370,male,group E,some college,standard,none
+00371,female,group D,high school,standard,none
+00372,male,group D,some high school,standard,completed
+00373,female,group C,high school,reduced,completed
+00374,male,group E,high school,standard,none
+00375,female,group B,high school,reduced,none
+00376,male,group C,some college,reduced,none
+00377,male,group C,high school,standard,none
+00378,female,group C,bachelor,standard,completed
+00379,male,group D,bachelor,standard,completed
+00380,female,group A,high school,standard,completed
+00381,female,group C,associate,reduced,completed
+00382,male,group E,bachelor,reduced,none
+00383,female,group A,associate,standard,none
+00384,female,group C,some college,standard,none
+00385,male,group C,high school,standard,completed
+00386,female,group C,some high school,standard,none
+00387,female,group E,bachelor,reduced,completed
+00388,male,group C,some college,reduced,completed
+00389,female,group E,bachelor,reduced,none
+00390,female,group D,high school,standard,completed
+00391,female,group D,some college,standard,none
+00392,male,group E,some college,standard,none
+00393,female,group C,associate,reduced,none
+00394,female,group C,some college,reduced,none
+00395,male,group C,bachelor,reduced,none
+00396,female,group D,some college,reduced,completed
+00397,male,group C,bachelor,reduced,none
+00398,female,group B,associate,reduced,none
+00399,female,group C,associate,reduced,none
+00400,male,group E,some college,standard,none
+00401,male,group E,some high school,standard,none
+00402,female,group D,some college,reduced,none
+00403,female,group C,bachelor,standard,none
+00404,male,group C,some college,reduced,none
+00405,male,group C,high school,standard,none
+00406,male,group D,some high school,standard,completed
+00407,female,group D,master,standard,none
+00408,male,group D,associate,standard,none
+00409,male,group D,some high school,standard,completed
+00410,female,group C,high school,standard,none
+00411,male,group D,some college,standard,completed
+00412,male,group E,high school,standard,none
+00413,male,group C,high school,standard,none
+00414,female,group D,high school,standard,completed
+00415,female,group D,associate,standard,none
+00416,female,group A,high school,standard,none
+00417,male,group C,some college,standard,none
+00418,male,group C,some college,standard,none
+00419,male,group B,some college,reduced,none
+00420,female,group D,bachelor,reduced,completed
+00421,male,group D,bachelor,standard,none
+00422,male,group C,some high school,standard,completed
+00423,male,group E,some college,standard,completed
+00424,female,group A,bachelor,reduced,none
+00425,female,group C,associate,reduced,completed
+00426,male,group C,some high school,standard,none
+00427,male,group D,bachelor,standard,none
+00428,male,group C,high school,standard,completed
+00429,male,group E,associate,standard,none
+00430,female,group C,bachelor,standard,none
+00431,female,group A,high school,standard,none
+00432,female,group D,high school,standard,none
+00433,male,group B,some college,standard,completed
+00434,male,group A,high school,reduced,none
+00435,male,group B,high school,standard,none
+00436,female,group C,associate,standard,completed
+00437,female,group B,associate,standard,completed
+00438,male,group B,some high school,standard,none
+00439,female,group A,high school,standard,completed
+00440,male,group E,master,reduced,none
+00441,female,group D,some high school,reduced,none
+00442,female,group B,high school,standard,none
+00443,male,group C,associate,standard,none
+00444,female,group D,associate,reduced,completed
+00445,male,group D,some high school,reduced,completed
+00446,female,group C,some high school,reduced,completed
+00447,male,group C,associate,reduced,none
+00448,male,group C,some college,reduced,none
+00449,female,group B,some high school,standard,none
+00450,male,group C,master,standard,none
+00451,male,group D,bachelor,standard,none
+00452,male,group B,master,reduced,none
+00453,female,group C,some high school,reduced,none
+00454,female,group C,high school,standard,none
+00455,male,group E,bachelor,reduced,none
+00456,male,group E,high school,reduced,none
+00457,female,group D,associate,standard,none
+00458,female,group E,high school,reduced,completed
+00459,female,group A,some high school,reduced,none
+00460,female,group C,master,standard,none
+00461,female,group C,high school,reduced,none
+00462,female,group D,some high school,standard,completed
+00463,male,group D,associate,standard,none
+00464,male,group A,some college,standard,none
+00465,female,group D,associate,standard,none
+00466,female,group D,associate,standard,completed
+00467,female,group D,associate,standard,completed
+00468,female,group D,some high school,standard,none
+00469,male,group B,some high school,reduced,none
+00470,male,group D,associate,standard,completed
+00471,female,group B,some high school,reduced,none
+00472,female,group E,associate,standard,completed
+00473,male,group D,bachelor,standard,completed
+00474,male,group C,some college,standard,completed
+00475,male,group B,associate,reduced,none
+00476,male,group C,some college,standard,none
+00477,male,group C,some high school,standard,completed
+00478,female,group B,high school,standard,none
+00479,female,group C,some high school,standard,none
+00480,female,group A,associate,standard,none
+00481,female,group C,high school,standard,none
+00482,male,group D,high school,reduced,none
+00483,male,group D,high school,standard,none
+00484,male,group B,associate,reduced,none
+00485,male,group C,bachelor,standard,none
+00486,male,group D,some high school,reduced,completed
+00487,female,group C,some college,standard,none
+00488,male,group E,bachelor,standard,completed
+00489,male,group E,some college,standard,completed
+00490,female,group C,master,standard,completed
+00491,male,group C,some high school,standard,none
+00492,female,group D,high school,standard,completed
+00493,female,group D,some high school,standard,none
+00494,male,group D,some high school,standard,none
+00495,male,group D,associate,reduced,completed
+00496,male,group C,high school,standard,none
+00497,female,group E,high school,standard,none
+00498,female,group D,associate,reduced,none
+00499,male,group D,associate,standard,none
+00500,female,group A,some college,standard,none
+00501,female,group E,some high school,standard,none
+00502,male,group C,associate,reduced,completed
+00503,male,group E,high school,reduced,none
+00504,female,group D,associate,standard,none
+00505,female,group C,master,standard,completed
+00506,female,group C,associate,reduced,completed
+00507,female,group A,high school,reduced,none
+00508,male,group D,some high school,reduced,none
+00509,female,group B,some college,standard,completed
+00510,male,group E,associate,standard,none
+00511,male,group D,some high school,reduced,completed
+00512,male,group C,associate,reduced,none
+00513,female,group D,associate,reduced,none
+00514,female,group C,associate,reduced,none
+00515,female,group D,some high school,standard,none
+00516,female,group E,some college,standard,completed
+00517,female,group D,some high school,reduced,completed
+00518,male,group B,high school,reduced,none
+00519,female,group B,some college,reduced,completed
+00520,female,group B,high school,standard,completed
+00521,female,group E,some college,reduced,none
+00522,male,group D,master,reduced,completed
+00523,male,group C,bachelor,reduced,completed
+00524,female,group C,associate,reduced,completed
+00525,female,group D,high school,reduced,none
+00526,female,group C,associate,standard,completed
+00527,male,group B,master,reduced,none
+00528,female,group E,some high school,standard,completed
+00529,female,group D,high school,reduced,completed
+00530,female,group E,high school,standard,none
+00531,female,group C,some college,reduced,completed
+00532,female,group D,high school,reduced,completed
+00533,female,group C,high school,standard,none
+00534,male,group B,bachelor,reduced,completed
+00535,male,group C,high school,standard,completed
+00536,male,group B,some high school,reduced,completed
+00537,female,group C,high school,standard,completed
+00538,female,group B,some college,standard,none
+00539,male,group C,some college,standard,completed
+00540,female,group B,some college,reduced,completed
+00541,female,group C,some high school,standard,completed
+00542,male,group C,high school,standard,none
+00543,female,group D,some high school,standard,none
+00544,male,group D,high school,standard,completed
+00545,male,group B,bachelor,standard,none
+00546,male,group E,high school,standard,none
+00547,male,group E,associate,standard,none
+00548,female,group B,some high school,standard,none
+00549,female,group C,some college,standard,completed
+00550,male,group E,high school,standard,completed
+00551,male,group D,some high school,standard,none
+00552,male,group C,high school,reduced,completed
+00553,male,group B,some high school,reduced,none
+00554,male,group D,high school,reduced,none
+00555,male,group C,some high school,standard,none
+00556,female,group E,high school,reduced,completed
+00557,male,group A,associate,reduced,completed
+00558,female,group E,associate,reduced,none
+00559,female,group B,associate,standard,none
+00560,male,group A,some high school,standard,completed
+00561,male,group C,high school,reduced,completed
+00562,female,group C,associate,reduced,none
+00563,female,group A,some college,reduced,none
+00564,male,group C,some high school,standard,none
+00565,female,group D,high school,standard,completed
+00566,female,group E,associate,standard,none
+00567,male,group D,associate,standard,completed
+00568,female,group C,some high school,reduced,completed
+00569,male,group C,associate,reduced,none
+00570,female,group D,some high school,reduced,completed
+00571,male,group E,some high school,standard,none
+00572,female,group B,associate,standard,none
+00573,male,group D,high school,reduced,none
+00574,male,group D,associate,standard,none
+00575,male,group C,some high school,reduced,none
+00576,male,group B,associate,reduced,completed
+00577,male,group D,some college,standard,none
+00578,male,group C,high school,reduced,none
+00579,female,group C,some high school,standard,none
+00580,male,group B,some college,standard,none
+00581,male,group E,some college,standard,completed
+00582,female,group C,some college,standard,none
+00583,male,group C,bachelor,reduced,completed
+00584,male,group B,bachelor,reduced,none
+00585,female,group A,high school,standard,none
+00586,male,group C,high school,standard,none
+00587,female,group D,high school,reduced,none
+00588,male,group C,some high school,reduced,none
+00589,male,group C,high school,standard,none
+00590,female,group D,some college,standard,completed
+00591,female,group B,high school,reduced,completed
+00592,male,group C,bachelor,standard,none
+00593,male,group A,associate,standard,none
+00594,female,group D,some college,standard,none
+00595,male,group D,high school,reduced,none
+00596,male,group C,bachelor,standard,none
+00597,female,group B,bachelor,standard,completed
+00598,female,group C,some college,standard,completed
+00599,male,group C,associate,standard,none
+00600,male,group D,some high school,standard,completed
+00601,female,group C,some college,standard,none
+00602,female,group D,some high school,standard,none
+00603,male,group C,high school,standard,none
+00604,male,group B,some high school,standard,none
+00605,female,group C,high school,standard,none
+00606,male,group C,some high school,reduced,none
+00607,male,group C,associate,standard,none
+00608,male,group D,associate,standard,completed
+00609,male,group C,associate,reduced,completed
+00610,male,group D,some college,standard,completed
+00611,male,group D,associate,standard,none
+00612,female,group D,some college,reduced,none
+00613,female,group D,master,standard,completed
+00614,male,group A,associate,reduced,completed
+00615,male,group E,high school,reduced,completed
+00616,female,group C,some college,reduced,completed
+00617,female,group C,high school,reduced,completed
+00618,male,group B,some high school,standard,completed
+00619,female,group C,master,standard,completed
+00620,male,group C,some college,standard,none
+00621,male,group E,high school,reduced,none
+00622,female,group B,high school,standard,completed
+00623,male,group B,associate,reduced,none
+00624,male,group B,high school,standard,none
+00625,male,group C,bachelor,standard,completed
+00626,female,group E,some college,standard,completed
+00627,male,group D,some college,standard,none
+00628,female,group A,associate,standard,completed
+00629,female,group C,associate,standard,none
+00630,male,group D,some college,standard,completed
+00631,male,group D,bachelor,reduced,none
+00632,female,group B,high school,standard,completed
+00633,male,group B,associate,reduced,none
+00634,male,group A,high school,standard,completed
+00635,male,group C,some high school,standard,none
+00636,female,group C,some high school,reduced,completed
+00637,male,group D,associate,standard,none
+00638,male,group B,high school,standard,completed
+00639,female,group C,high school,standard,none
+00640,female,group B,associate,standard,none
+00641,male,group C,high school,standard,completed
+00642,female,group C,some college,standard,none
+00643,male,group C,high school,reduced,none
+00644,male,group E,some college,standard,completed
+00645,male,group C,some college,reduced,none
+00646,female,group B,some high school,reduced,completed
+00647,female,group B,some college,standard,none
+00648,female,group E,some college,reduced,none
+00649,male,group D,bachelor,standard,completed
+00650,female,group B,some college,standard,none
+00651,female,group B,bachelor,standard,completed
+00652,female,group B,some college,standard,completed
+00653,female,group D,bachelor,standard,none
+00654,female,group E,some high school,standard,completed
+00655,male,group A,high school,standard,none
+00656,male,group C,some college,reduced,none
+00657,female,group D,associate,standard,none
+00658,male,group E,some college,standard,completed
+00659,female,group B,some college,standard,none
+00660,female,group A,high school,standard,none
+00661,male,group B,bachelor,reduced,none
+00662,female,group B,some college,reduced,completed
+00663,female,group C,high school,standard,none
+00664,male,group E,some college,standard,completed
+00665,female,group D,high school,reduced,completed
+00666,male,group D,some college,reduced,completed
+00667,male,group C,some high school,standard,none
+00668,male,group A,associate,standard,completed
+00669,male,group E,associate,standard,completed
+00670,male,group D,some high school,standard,completed
+00671,female,group E,associate,reduced,none
+00672,male,group C,high school,standard,none
+00673,female,group C,some college,reduced,completed
+00674,female,group D,bachelor,standard,none
+00675,male,group E,some college,reduced,none
+00676,male,group C,some high school,standard,none
+00677,male,group D,associate,standard,completed
+00678,male,group D,some college,standard,none
+00679,male,group C,some college,reduced,none
+00680,female,group C,some high school,reduced,completed
+00681,female,group C,bachelor,standard,completed
+00682,female,group D,associate,reduced,none
+00683,female,group B,associate,standard,none
+00684,male,group C,some college,standard,completed
+00685,female,group E,high school,standard,none
+00686,female,group B,high school,reduced,none
+00687,male,group D,bachelor,standard,none
+00688,male,group E,some high school,standard,none
+00689,male,group D,some college,reduced,none
+00690,female,group E,associate,reduced,completed
+00691,male,group D,some college,standard,none
+00692,male,group B,some high school,reduced,completed
+00693,male,group C,some college,standard,none
+00694,female,group C,high school,reduced,none
+00695,male,group E,associate,reduced,completed
+00696,female,group D,some high school,standard,completed
+00697,male,group C,some high school,standard,none
+00698,male,group E,some high school,standard,none
+00699,female,group E,high school,standard,none
+00700,male,group D,some high school,standard,none
+00701,male,group C,some college,reduced,none
+00702,female,group D,some college,standard,none
+00703,female,group A,high school,standard,none
+00704,female,group E,some college,reduced,none
+00705,female,group B,master,standard,none
+00706,female,group A,some high school,standard,none
+00707,male,group B,high school,reduced,completed
+00708,female,group B,associate,standard,completed
+00709,male,group B,master,reduced,none
+00710,male,group D,high school,standard,none
+00711,male,group A,some high school,standard,completed
+00712,male,group D,bachelor,reduced,none
+00713,male,group C,associate,reduced,none
+00714,male,group C,master,standard,none
+00715,female,group E,some high school,reduced,completed
+00716,male,group A,associate,standard,none
+00717,male,group D,associate,reduced,completed
+00718,male,group C,some college,reduced,none
+00719,female,group C,some college,standard,none
+00720,female,group D,bachelor,standard,completed
+00721,male,group D,bachelor,standard,none
+00722,male,group C,master,standard,completed
+00723,male,group C,associate,reduced,none
+00724,female,group C,high school,standard,completed
+00725,female,group B,some college,standard,none
+00726,male,group D,associate,reduced,none
+00727,female,group B,high school,reduced,none
+00728,male,group C,some college,standard,none
+00729,male,group D,some college,standard,none
+00730,female,group A,some college,standard,none
+00731,female,group B,bachelor,standard,none
+00732,female,group C,high school,reduced,completed
+00733,female,group D,associate,standard,completed
+00734,female,group E,high school,reduced,none
+00735,female,group E,high school,reduced,completed
+00736,female,group C,some college,standard,none
+00737,male,group C,some college,standard,none
+00738,male,group D,high school,standard,completed
+00739,male,group A,associate,reduced,completed
+00740,female,group B,some college,reduced,completed
+00741,female,group D,high school,reduced,completed
+00742,male,group D,some high school,standard,none
+00743,male,group B,some college,standard,none
+00744,female,group A,high school,standard,none
+00745,male,group B,master,standard,none
+00746,male,group C,master,reduced,none
+00747,male,group C,some college,reduced,none
+00748,female,group E,some high school,standard,completed
+00749,female,group A,associate,reduced,none
+00750,male,group C,some college,reduced,completed
+00751,female,group B,some college,standard,none
+00752,male,group C,bachelor,standard,none
+00753,female,group C,associate,standard,none
+00754,female,group B,some high school,reduced,completed
+00755,male,group E,some college,reduced,none
+00756,female,group A,associate,standard,none
+00757,male,group A,some college,reduced,completed
+00758,female,group C,some college,reduced,completed
+00759,female,group B,some college,reduced,none
+00760,female,group A,high school,standard,none
+00761,female,group C,some college,reduced,completed
+00762,female,group D,some college,standard,none
+00763,male,group C,high school,reduced,none
+00764,female,group D,high school,standard,none
+00765,female,group B,some college,standard,none
+00766,male,group D,some college,standard,none
+00767,male,group E,master,standard,completed
+00768,male,group D,some high school,standard,none
+00769,female,group C,some high school,standard,none
+00770,male,group C,some high school,standard,completed
+00771,female,group C,master,standard,none
+00772,female,group C,some high school,standard,none
+00773,female,group E,bachelor,standard,completed
+00774,male,group D,some high school,reduced,completed
+00775,female,group C,associate,standard,none
+00776,male,group D,high school,reduced,completed
+00777,male,group A,high school,reduced,none
+00778,female,group E,some high school,reduced,completed
+00779,female,group A,some high school,reduced,none
+00780,female,group B,bachelor,reduced,completed
+00781,male,group E,some college,standard,completed
+00782,male,group D,associate,reduced,none
+00783,male,group D,master,reduced,none
+00784,male,group C,associate,reduced,none
+00785,female,group C,associate,standard,none
+00786,female,group D,associate,standard,none
+00787,male,group B,master,standard,none
+00788,female,group C,master,standard,none
+00789,male,group D,bachelor,standard,none
+00790,female,group C,some high school,standard,none
+00791,male,group D,some college,standard,none
+00792,male,group C,associate,reduced,none
+00793,female,group C,some college,standard,none
+00794,male,group C,high school,reduced,none
+00795,male,group C,high school,reduced,none
+00796,male,group B,high school,standard,none
+00797,male,group D,associate,standard,none
+00798,female,group D,some college,standard,completed
+00799,female,group B,associate,reduced,none
+00800,male,group B,high school,standard,none
+00801,female,group D,bachelor,reduced,none
+00802,male,group B,high school,standard,none
+00803,female,group D,bachelor,reduced,none
+00804,female,group E,bachelor,standard,completed
+00805,male,group E,associate,standard,none
+00806,female,group C,high school,standard,none
+00807,male,group C,associate,standard,none
+00808,male,group B,some high school,reduced,none
+00809,male,group B,some high school,standard,completed
+00810,female,group E,some college,standard,completed
+00811,female,group B,associate,standard,completed
+00812,female,group B,some high school,standard,none
+00813,female,group D,some college,standard,completed
+00814,male,group B,high school,standard,completed
+00815,male,group E,associate,standard,none
+00816,male,group B,associate,standard,none
+00817,female,group C,master,reduced,none
+00818,female,group B,some college,standard,none
+00819,male,group E,some college,reduced,completed
+00820,male,group D,some college,standard,completed
+00821,male,group D,high school,standard,none
+00822,male,group E,some high school,reduced,none
+00823,male,group B,associate,standard,none
+00824,male,group D,master,reduced,completed
+00825,male,group C,some college,standard,none
+00826,male,group D,some high school,reduced,none
+00827,male,group B,some college,standard,none
+00828,male,group D,some college,standard,none
+00829,male,group C,some high school,standard,none
+00830,female,group B,associate,reduced,none
+00831,male,group C,bachelor,reduced,none
+00832,male,group D,some college,reduced,completed
+00833,male,group A,some college,standard,completed
+00834,male,group D,associate,standard,none
+00835,male,group C,master,reduced,none
+00836,female,group D,bachelor,standard,completed
+00837,female,group A,master,standard,completed
+00838,male,group B,associate,standard,none
+00839,female,group B,some high school,reduced,none
+00840,male,group A,some college,standard,completed
+00841,female,group E,high school,reduced,completed
+00842,male,group C,some college,reduced,completed
+00843,male,group D,some high school,standard,none
+00844,male,group A,associate,standard,completed
+00845,female,group C,bachelor,reduced,completed
+00846,male,group C,high school,standard,completed
+00847,female,group E,high school,standard,none
+00848,male,group B,high school,reduced,completed
+00849,female,group D,high school,standard,completed
+00850,male,group E,associate,standard,completed
+00851,male,group C,some high school,standard,none
+00852,male,group C,master,standard,none
+00853,male,group A,some college,standard,none
+00854,female,group C,master,standard,completed
+00855,female,group C,high school,standard,none
+00856,male,group E,some high school,standard,none
+00857,female,group E,some college,standard,none
+00858,male,group E,bachelor,standard,completed
+00859,female,group D,associate,reduced,completed
+00860,male,group E,some high school,standard,none
+00861,male,group B,associate,standard,completed
+00862,male,group C,high school,reduced,completed
+00863,male,group D,some college,standard,none
+00864,male,group A,high school,standard,none
+00865,female,group B,associate,reduced,completed
+00866,male,group C,some college,standard,completed
+00867,female,group E,some college,standard,completed
+00868,female,group B,high school,reduced,none
+00869,male,group E,some high school,standard,none
+00870,female,group C,high school,standard,none
+00871,male,group E,associate,standard,completed
+00872,female,group C,some college,standard,none
+00873,female,group E,some college,standard,none
+00874,male,group D,associate,standard,none
+00875,female,group C,associate,reduced,none
+00876,male,group E,master,standard,completed
+00877,female,group D,some high school,reduced,none
+00878,male,group A,associate,reduced,completed
+00879,female,group E,high school,standard,none
+00880,female,group C,some college,standard,none
+00881,female,group D,some college,standard,none
+00882,female,group D,associate,standard,none
+00883,female,group D,associate,reduced,none
+00884,female,group C,master,standard,none
+00885,female,group C,some college,reduced,none
+00886,male,group D,some high school,standard,none
+00887,female,group C,some high school,standard,none
+00888,female,group B,bachelor,reduced,none
+00889,female,group C,high school,standard,none
+00890,female,group C,high school,reduced,completed
+00891,male,group E,some college,standard,none
+00892,male,group C,high school,standard,none
+00893,male,group E,high school,standard,none
+00894,female,group B,bachelor,standard,none
+00895,female,group E,bachelor,standard,none
+00896,female,group C,some high school,standard,none
+00897,female,group D,some high school,standard,completed
+00898,male,group C,associate,reduced,completed
+00899,male,group C,some college,standard,none
+00900,female,group B,some college,standard,completed
+00901,female,group E,some high school,standard,none
+00902,female,group D,high school,standard,none
+00903,male,group A,some high school,standard,completed
+00904,male,group B,some college,reduced,none
+00905,female,group D,associate,standard,none
+00906,male,group B,associate,standard,none
+00907,male,group D,master,reduced,none
+00908,male,group D,high school,standard,completed
+00909,male,group C,high school,standard,none
+00910,male,group C,bachelor,standard,completed
+00911,female,group B,high school,standard,completed
+00912,male,group D,high school,reduced,completed
+00913,male,group C,some college,reduced,completed
+00914,female,group D,master,standard,none
+00915,male,group D,some college,standard,completed
+00916,female,group E,some college,reduced,none
+00917,female,group C,high school,standard,none
+00918,male,group C,associate,standard,none
+00919,male,group D,bachelor,reduced,none
+00920,male,group C,some high school,standard,none
+00921,male,group E,master,standard,none
+00922,male,group D,associate,standard,completed
+00923,male,group B,high school,standard,none
+00924,female,group D,bachelor,reduced,none
+00925,male,group C,high school,reduced,none
+00926,female,group B,bachelor,standard,none
+00927,male,group B,some college,reduced,completed
+00928,female,group C,some high school,standard,none
+00929,female,group C,associate,standard,completed
+00930,male,group D,some high school,standard,none
+00931,female,group D,high school,reduced,none
+00932,male,group D,some college,standard,none
+00933,male,group B,bachelor,standard,none
+00934,male,group D,some college,reduced,none
+00935,male,group C,associate,reduced,none
+00936,male,group C,bachelor,reduced,none
+00937,male,group D,associate,standard,none
+00938,female,group A,associate,standard,none
+00939,female,group B,some high school,reduced,none
+00940,female,group D,bachelor,standard,none
+00941,female,group D,some college,reduced,none
+00942,male,group E,associate,standard,completed
+00943,male,group E,associate,reduced,none
+00944,female,group C,associate,standard,none
+00945,male,group A,some high school,standard,none
+00946,male,group D,some college,reduced,none
+00947,male,group C,some college,reduced,completed
+00948,female,group C,associate,standard,none
+00949,female,group A,some high school,reduced,completed
+00950,male,group B,some high school,standard,none
+00951,female,group C,associate,standard,completed
+00952,female,group E,high school,reduced,none
+00953,female,group C,some college,standard,none
+00954,female,group B,associate,standard,completed
+00955,female,group E,some high school,reduced,none
+00956,female,group E,some college,standard,none
+00957,female,group E,bachelor,standard,none
+00958,female,group B,some high school,reduced,none
+00959,female,group C,some high school,standard,none
+00960,female,group B,bachelor,standard,completed
+00961,female,group C,high school,standard,completed
+00962,female,group E,some college,standard,completed
+00963,female,group C,some college,standard,completed
+00964,male,group B,high school,standard,none
+00965,female,group C,some college,reduced,none
+00966,male,group C,master,reduced,none
+00967,male,group D,high school,standard,none
+00968,male,group C,some high school,standard,none
+00969,male,group B,associate,standard,none
+00970,male,group C,high school,standard,none
+00971,female,group C,high school,reduced,none
+00972,female,group C,high school,standard,none
+00973,female,group C,some college,standard,completed
+00974,female,group A,bachelor,standard,completed
+00975,female,group B,bachelor,standard,completed
+00976,male,group E,some high school,reduced,none
+00977,female,group B,high school,standard,none
+00978,male,group B,bachelor,reduced,none
+00979,male,group D,associate,standard,none
+00980,male,group C,some high school,standard,none
+00981,male,group C,associate,standard,none
+00982,male,group E,some high school,standard,completed
+00983,male,group C,some high school,standard,none
+00984,male,group D,some high school,standard,completed
+00985,female,group E,bachelor,standard,none
+00986,female,group A,bachelor,reduced,none
+00987,male,group D,master,standard,none
+00988,female,group D,master,standard,completed
+00989,male,group D,some high school,standard,none
+00990,male,group D,associate,standard,completed
+00991,female,group C,some high school,standard,none
+00992,female,group A,associate,standard,none
+00993,male,group A,associate,reduced,completed
+00994,male,group D,some high school,standard,none
+00995,female,group B,associate,standard,none
+00996,male,group C,some college,standard,none
+00997,male,group C,some college,standard,none
+00998,female,group A,high school,standard,completed
+00999,male,group E,high school,standard,none
+01000,male,group D,high school,standard,none
