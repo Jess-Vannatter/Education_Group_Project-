@@ -32,5 +32,6 @@ A small group created in Slack. The expectation is that responses to a post is m
 * commit deliverable from SQL
 * join tables (in either SQL or via python in notebook)
 * Draft machine learning module is connected to the provisional database
+* update presentation (https://docs.google.com/presentation/d/1Kom-E46sPTH8pOhf19zlzoUs71fJabneA08JeBoC3dM/edit?usp=sharing)
 
 
