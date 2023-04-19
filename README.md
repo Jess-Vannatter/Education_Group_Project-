@@ -6,7 +6,9 @@ The project will focus will focus on the education realm, specifically mathemati
 
 ## Data Source 
 Initially, we hoped to explore data from the National Assessment of Educational Progress (NAEP). After exploring the website, it became clear we were more interested in individual student data which was not readily accessible. We chose to use a "fictional" dataset due to the ethical and legal concerns about using real student data. The data was generated from the following website (http://roycekimmons.com/tools/generated_data/exams). This data set includes scores from three exams and a variety of personal, social, and economic factors that have interaction effects upon them.
-
+### Data Dictionary
+The dataset that we chose is a simulated dataset that contains information on mathematics performance/achievement of high school students. The dataset includes their scores in Math, reading, and writing and other demographic information. 
+![Alt text](https://github.com/Jess-Vannatter/Education_Group_Project-/blob/Erica_dev/Resources/Data_Dictionary.png)
 ## Question
 What factors best predict mathematics achievement?
 
@@ -32,7 +34,7 @@ A small group created in Slack. The expectation is that responses to a post is m
 
 # Technical Work
 ## Splitting Data
-  - Our initial data set came as one table. To meet project criteria our goal was to split the data in to  two tables containing demographic information of the students (Ehtnicity, parental edu., standard/ Free lunch (socio-eco), Sex, and test preparation) and test scores (Math. writing, and Reading scores) respectivly - "demographics" and "exam_scores". Please refer to the "Splitting_data.ipynb" file. I Utilized PANDAS and various techniques to successfuly extract and formulate the two desired tables( which can be referred to  in the Resources folder on my git hub). In partuicular I used Regex to clean up the data set and allow it to bne used later in the project. 
+  - Our initial data set came as one table. To meet project criteria our goal was to split the data in to two tables containing demographic information of the students (Ehtnicity, parental edu., standard/ Free lunch (socio-eco), Sex, and test preparation) and test scores (Math. writing, and Reading scores) respectivly - "demographics" and "exam_scores". Please refer to the "Splitting_data.ipynb" file. I Utilized PANDAS and various techniques to successfuly extract and formulate the two desired tables( which can be referred to  in the Resources folder on my git hub). In partuicular I used Regex to clean up the data set and allow it to bne used later in the project. 
     - https://github.com/Jess-Vannatter/Education_Group_Project-/tree/Jess_Dev/Resources
 
 ## SQL Work
