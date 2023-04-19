@@ -117,23 +117,8 @@ In addition to the Logistic regression model, a balanced random forest model was
  
  ![image](https://user-images.githubusercontent.com/117245167/233061911-5e9470fa-c455-4e19-965d-67fc94470d3d.png)
 
- - My last step was to pull out and inspect the feature importances of the data set to help determine which features impacted the predictablility the most, which can be seen below:
+Lastly, the feature importances of the data set were pulled out and inspected to help determine which features impacted the predictablility the most, which can be seen below:
  
  ![image](https://user-images.githubusercontent.com/117245167/233062144-2e06cf76-72be-4dab-baf0-cbeeafd63cba.png)
-
-
-
-## To Do List
-* find data/ csv (done)
-* commit resources on github
-* set up ERD
-* download ERD
-* commit ERD to github
-* set up tables in SQL
-* connect CSV to tables in SQL
-* commit deliverable from SQL
-* join tables (in either SQL or via python in notebook)
-* Draft machine learning module is connected to the provisional database
-* update presentation (https://docs.google.com/presentation/d/1Kom-E46sPTH8pOhf19zlzoUs71fJabneA08JeBoC3dM/edit?usp=sharing)
 
 
