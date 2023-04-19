@@ -121,4 +121,6 @@ Lastly, the feature importances of the data set were pulled out and inspected to
  
  ![image](https://user-images.githubusercontent.com/117245167/233062144-2e06cf76-72be-4dab-baf0-cbeeafd63cba.png)
 
+# Formal Presentation
+[Work-in-Progress](https://docs.google.com/presentation/d/1Kom-E46sPTH8pOhf19zlzoUs71fJabneA08JeBoC3dM/edit?usp=sharing)
 
