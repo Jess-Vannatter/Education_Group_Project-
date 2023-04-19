@@ -1,7 +1,7 @@
 # Education Group Project
 
 
-## Selected Topic
+## Topic
 The project will focus will focus on the education realm, specifically mathematics achievement. Two of the three members are currently classroom teachers and are passionate about student learning. 
 
 ## Data Source 
