@@ -17,6 +17,13 @@ What factors best predict mathematics achievement?
 * PostgreSQL/ PGAdmin
 * Google Docs -QuickDB
 * Google Slides
+* PANDAS
+* SKlearn
+* IMBlearn
+* Plotly
+* Numpy
+* Matplotlib
+* SQL Alchemy
 
 
 ## The Plan
