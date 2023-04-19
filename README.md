@@ -89,7 +89,7 @@ JOIN "exam_scores" ON "demographics"."Student_ID" = "exam_scores"."Student_ID";
 ## EDA
 Once the tables were joined in SQL, the data was imported into Jupyter Notebook. A basic analysis was carried out in an attempt to learn about our data by getting the shape and using ```.info()``` to see null values and data types. In addition it was determined that there were no duplicate rows with ```.duplicated()```. Next Jess employed for loops to get the value counts and modes for the different catagorical values. This was specifically helpful because it listed the values for each catagorical feature in one output (See below). In addition, we attained the modes for each category which printed the value that appeared most often common in each respective column.
   
-  - **Value_counts**
+  - **Value Counts**
    
   ![image](https://user-images.githubusercontent.com/117245167/233054765-da374cb2-a3b9-4a89-9033-4bd2fd2c7e37.png)
   
@@ -97,7 +97,7 @@ Once the tables were joined in SQL, the data was imported into Jupyter Notebook.
    
   ![image](https://user-images.githubusercontent.com/117245167/233056421-b39a25fe-e204-4339-9cbb-7ee6230e3281.png)
   
-  - Based on our definition of a "passing" math score (being 70 or higher) I then extracted a df showing just the pasing students. In Addition i created a function to print the outliers of the Math_score" column, which when applied to te data set above found 6 statistical outliers that were below the lower_limit/ q1
+Based on our definition of a "passing" math score (70 or higher), a dataframe was extracted showing just the passing students. In addition, a function was created to print the outliers of the "Math_score" column, which when applied to te data set above found 6 statistical outliers that were below the lower_limit/ q1
   
   ![image](https://user-images.githubusercontent.com/117245167/233055155-1f8f22b6-0aac-4bb5-b07f-cee20cbde2c3.png)
 
