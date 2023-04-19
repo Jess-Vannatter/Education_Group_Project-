@@ -2,7 +2,7 @@
 
 
 ## Topic
-The project will focus will focus on the education realm, specifically mathematics achievement. Two of the three members are currently classroom teachers and are passionate about student learning. 
+The project will focus will focus on the education field, specifically mathematics achievement. Two of the three members are currently classroom teachers and are passionate about student learning. 
 
 ## Data Source 
 Initially, we hoped to explore data from the National Assessment of Educational Progress (NAEP). After exploring the website, it became clear we were more interested in individual student data which was not readily accessible. We chose to use a "fictional" dataset due to the ethical and legal concerns about using real student data. The data was generated from the following website (http://roycekimmons.com/tools/generated_data/exams). This data set includes scores from three exams and a variety of personal, social, and economic factors that have interaction effects upon them.
