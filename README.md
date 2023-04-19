@@ -37,11 +37,12 @@ We created a small group channel in Slack. The expectation is that responses to 
 
 # Technical Work
 ## Splitting Data
-  - Our initial data set came as one table. To meet project criteria our goal was to split the data in to two tables containing demographic information of the students (Ehtnicity, parental edu., standard/ Free lunch (socio-eco), Sex, and test preparation) and test scores (Math. writing, and Reading scores) respectivly - "demographics" and "exam_scores". Please refer to the "Splitting_data.ipynb" file. I Utilized PANDAS and various techniques to successfuly extract and formulate the two desired tables( which can be referred to  in the Resources folder on my git hub). In partuicular I used Regex to clean up the data set and allow it to bne used later in the project. 
-    - https://github.com/Jess-Vannatter/Education_Group_Project-/tree/Jess_Dev/Resources
+Our initial data set came as one table. To meet project criteria, our goal was to split the data in to two tables containing demographic information of the students (Ethnicity, parental educational level, standard/ Free lunch (socio-eco), sex, and test preparation) and test scores (math, writing, and reading scores) respectively titled "demographics" and "exam_scores".  As a group, we discussed initial superficial updates to the data set including consistently naming columns. We also simplified naming of certain demographic descriptions for the sake of clarity. 
+
+Jess utilized PANDAS and various techniques to successfuly extract and formulate the two desired tables( which can be referred to in the Resources folder on his git hub). In partuicular Jess used Regex to clean up the data set and allow it to be used later in the project. Please refer to the "Splitting_data.ipynb" file in the following location: https://github.com/Jess-Vannatter/Education_Group_Project-/tree/Jess_Dev/Resources
 
 ## SQL Work
-  - PLease refer to files table_joins.sql and QuickDBD-export.sql. Utilized Quick Db website to assist with ERD complilation. Then used the export code from QuickDB to build tables in SQL.
+Please refer to files table_joins.sql and QuickDBD-export.sql. The Quick Db website was utilized to assist with ERD compilation. Then the export code from QuickDB was used to build tables in SQL.
   
   ![image](https://user-images.githubusercontent.com/117245167/233049683-0f6e5ebd-b760-45ab-a916-fffb420973f4.png)
   ```
@@ -68,7 +69,7 @@ ALTER TABLE "exam_scores" ADD CONSTRAINT "fk_exam_scores_Student_ID" FOREIGN KEY
 REFERENCES "demographics" ("Student_ID");
 ```
 
-  - Joined "exam_scores" table and "demographics" table in SQL to create our intial data set, "Student_exams"
+Next, "exam_scores" table and "demographics" table were joined in SQL to create our intial data set, "Student_exams"
   ```
   SELECT "demographics"."Student_ID",
 "demographics"."Sex",
@@ -85,7 +86,7 @@ JOIN "exam_scores" ON "demographics"."Student_ID" = "exam_scores"."Student_ID";
 ```
 
 ## EDA
-  - Once the tables were joined in SQL(connection string?) Now that the Data was imported in to jupyter i carried out A basic analysi  in an attempt to learn about our data. First getting the shape and using ```.info()``` to see null values and data types. In addition i determined there were no duplicate rows with ```.duplicated()```. Next i utlized a couple of for loops to get the value-counts and modes for the diffnerent catagorical values. This was specifically helpful because it listed the values for each catagorical feature in one output (See below) and simplify i did the same for themodes, which printed which value was seen more frequently/ more common in its respected column.
+Once the tables were joined in SQL(connection string?) Now that the Data was imported in to jupyter i carried out A basic analysi  in an attempt to learn about our data. First getting the shape and using ```.info()``` to see null values and data types. In addition i determined there were no duplicate rows with ```.duplicated()```. Next i utlized a couple of for loops to get the value-counts and modes for the diffnerent catagorical values. This was specifically helpful because it listed the values for each catagorical feature in one output (See below) and simplify i did the same for themodes, which printed which value was seen more frequently/ more common in its respected column.
   
   - **Value_counts**
    
