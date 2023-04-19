@@ -97,11 +97,11 @@ Once the tables were joined in SQL, the data was imported into Jupyter Notebook.
    
   ![image](https://user-images.githubusercontent.com/117245167/233056421-b39a25fe-e204-4339-9cbb-7ee6230e3281.png)
   
-Based on our definition of a "passing" math score (70 or higher), a dataframe was extracted showing just the passing students. In addition, a function was created to print the outliers of the "Math_score" column, which when applied to te data set above found 6 statistical outliers that were below the lower_limit/ q1
+Based on our definition of a "passing" math score (70 or higher), a dataframe was extracted showing just the passing students. 
   
   ![image](https://user-images.githubusercontent.com/117245167/233055155-1f8f22b6-0aac-4bb5-b07f-cee20cbde2c3.png)
 
-  - In Addition i created a function to print the outliers of the Math_score" column, which when applied to te data set above found 6 statistical outliers that were below the lower_limit/ q1.
+A function was created to print the outliers of the "Math_score" column, which when applied to the data set revealed 6 statistical outliers that were outside the lower fence using the Interquartile Rule.
   
   ![image](https://user-images.githubusercontent.com/117245167/233055852-b77a2337-7036-4366-94df-ff71700eb234.png)
 
