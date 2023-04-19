@@ -44,7 +44,8 @@ Jess utilized PANDAS and various techniques to successfuly extract and formulate
 ## SQL Work
 Please refer to files table_joins.sql and QuickDBD-export.sql. The Quick Db website was utilized to assist with ERD compilation. Then the export code from QuickDB was used to build tables in SQL.
   
-  ![image](https://user-images.githubusercontent.com/117245167/233049683-0f6e5ebd-b760-45ab-a916-fffb420973f4.png)
+  ![image](https://github.com/Jess-Vannatter/Education_Group_Project-/blob/200d54bcedd987322a155e07bc714eb0361fa122/Resources/QuickDBD-exams.png)
+
   ```
   CREATE TABLE "exam_scores" (
     "Student_ID" INT   NOT NULL,
