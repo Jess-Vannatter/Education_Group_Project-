@@ -86,7 +86,7 @@ FROM "demographics"
 JOIN "exam_scores" ON "demographics"."Student_ID" = "exam_scores"."Student_ID";
 ```
 
-## EDA
+## Exploratory Data Analysis
 Once the tables were joined in SQL, the data was imported into Jupyter Notebook. A basic analysis was carried out in an attempt to learn about our data by getting the shape and using ```.info()``` to see null values and data types. In addition it was determined that there were no duplicate rows with ```.duplicated()```. Next Jess employed for loops to get the value counts and modes for the different catagorical values. This was specifically helpful because it listed the values for each catagorical feature in one output (See below). In addition, we attained the modes for each category which printed the value that appeared most often common in each respective column.
   
   - **Value Counts**
