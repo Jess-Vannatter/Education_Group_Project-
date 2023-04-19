@@ -1,4 +1,4 @@
-# Education_Group_Project
+# Education Group Project
 
 
 ## Selected Topic
