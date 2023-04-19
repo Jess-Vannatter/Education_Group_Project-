@@ -1,6 +1,6 @@
 # Education Group Project
 
-
+# Overview
 ## Topic
 The project will focus will focus on the education field, specifically mathematics achievement. Two of the three members are currently classroom teachers and are passionate about student learning. 
 
