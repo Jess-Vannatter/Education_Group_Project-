@@ -32,7 +32,7 @@ The dataset that we chose is a simulated dataset that contains information on ma
 * Balanced Random Forrest
 
 ## Communication Protocol
-A small group created in Slack. The expectation is that responses to a post is made by end of day. It is expected that group members would check Slack minimally, once per day. The protocol can be revisited during each class meeting to determine if it is meeting the group's needs.
+We created a small group channel in Slack. The expectation is that responses to a post is made by end of day. It is expected that group members would check Slack minimally, once per day. The protocol can be revisited during each class meeting to determine if it is meeting the group's needs. In addition, we created a Google Drive to house relevant Google Sheets, Google Slides, and Segment Rubrics.
 
 # Technical Work
 ## Splitting Data
