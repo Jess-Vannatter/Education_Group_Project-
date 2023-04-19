@@ -112,8 +112,8 @@ Please refer to "Mock_Logistic_Regression.ipynb". After analyzing the data, Jess
  ![image](https://user-images.githubusercontent.com/117245167/233060496-13d702a4-f328-46a3-8ecb-cfff5b049d5e.png)
 
 
-## Balanced_Random_forrest/ Feature_Importances
- - In addition to the Logistic regression model i wanted to test our a balanced random forrest model on the data to compare accuracy scores and to also retrieve the feature iportances. I felt the feature importances could be an important detail in answering our intial question of determining which features best determined the math test scores. The coed in the "Bala_Rando_Forest.ipynb file essentially was initially boiler plate when compared tot he logistic regression code. COnverting the math_score column, creationg the features and targets, and the train_test_split. then instead of random_over_sampling to sample the data, I applied a balanced Random Forest Clasifier to botain the balanced accuracy score and Geometric mean. Please see the reults below:
+## Balanced_Random_forest/ Feature Importances
+In addition to the Logistic regression model, a balanced random forest model was run on the data to compare accuracy scores and to also retrieve the feature importances. The feature importances may be an important detail in answering our intial question of determining which features best predicted the math test scores. The code found in the "Bala_Rando_Forest.ipynb" file essentially was an initial boiler plate when compared to the logistic regression code. Next the math_score column was converted, the features and targets were created, and the train_test_split. Then instead of sampling the data via random oversampling, a balanced Random Forest Classifier was applied to obtain the balanced accuracy score and Geometric mean. Please see the reults below:
  
  ![image](https://user-images.githubusercontent.com/117245167/233061911-5e9470fa-c455-4e19-965d-67fc94470d3d.png)
 
