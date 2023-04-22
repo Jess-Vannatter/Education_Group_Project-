@@ -84,7 +84,7 @@ JOIN "exam_scores" ON "demographics"."Student_ID" = "exam_scores"."Student_ID";
 ```
 
 ## EDA
-  - Once the tables were joined in SQL(connection string?) Now that the Data was imported in to jupyter i carried out A basic analysi  in an attempt to learn about our data. First getting the shape and using ```.info()``` to see null values and data types. In addition i determined there were no duplicate rows with ```.duplicated()```. Next i utlized a couple of for loops to get the value-counts and modes for the diffnerent catagorical values. This was specifically helpful because it listed the values for each catagorical feature in one output (See below) and simplify i did the same for themodes, which printed which value was seen more frequently/ more common in its respected column.
+  - Once the tables were joined in SQL using the connection string, we carried out A basic analysis  in an attempt to learn about our data. First getting the shape and using ```.info()``` to see null values and data types. In addition i determined there were no duplicate rows with ```.duplicated()```. Next i utlized a couple of for loops to get the value-counts and modes for the diffnerent catagorical values. This was specifically helpful because it listed the values for each catagorical feature in one output (See below) and simplify i did the same for themodes, which printed which value was seen more frequently/ more common in its respected column.
   
   - **Value_counts**
    
@@ -117,3 +117,7 @@ JOIN "exam_scores" ON "demographics"."Student_ID" = "exam_scores"."Student_ID";
  - My last step was to pull out and inspect the feature importances of the data set to help determine which features impacted the predictablility the most, which can be seen below:
  
  ![image](https://user-images.githubusercontent.com/117245167/233062144-2e06cf76-72be-4dab-baf0-cbeeafd63cba.png)
+
+
+## Easy_Ensamble_AdaBoost
+IN Another attempt to compare models i wanted to test our data against an additional supervised Machine learning model. I did not optemize the data in any way and wanted to see what results we could get trying to predict the match scores using the Easy Ensamble AdaBoost method.
