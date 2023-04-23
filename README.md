@@ -13,9 +13,9 @@ The dataset that we chose is a simulated dataset that contains information on ma
 Our primary question is : What factors best predict mathematics achievement/performance for High School Math Students?
 Additional, questions that we might be able to answer or shed some light on are as follows:
 
-    - What factors are indicate of Mathematics achievement/Performance for High School Math Students
-    - What factors are more important, Student Factors, Environmental/Demographics, of Instructional (School Setting, Class Size, Co-Taught
-    - Are there any factors that are not present, but can be inferred based exiting data?
+    - What factors indicate Mathematics achievement/Performance for High School Math Students
+    - What factors are more important, Student Factors, Environmental/Demographics, of Instructional (School Setting, Class Size, Co-Taught)
+    - Are there any factors that are not present, but can be inferred based existing data?
     - Are there any factors that we have believed intuitively , but show to be insignificant
 
 ?
