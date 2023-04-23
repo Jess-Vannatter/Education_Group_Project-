@@ -98,18 +98,18 @@ JOIN "exam_scores" ON "demographics"."Student_ID" = "exam_scores"."Student_ID";
   
   ![image](https://user-images.githubusercontent.com/117245167/233055155-1f8f22b6-0aac-4bb5-b07f-cee20cbde2c3.png)
 
-  - In Addition i created a function to print the outliers of the Math_score" column, which when applied to te data set above found 6 statistical outliers that were below the lower_limit/ q1.
+  - In Addition i created a function to print the outliers of the Math_score", "Reading_Score", and "Writing_Score" columns, which when applied to the data set above found multiple statistical outliers that were below the lower_limit/ q1.
   
-  ![image](https://user-images.githubusercontent.com/117245167/233055852-b77a2337-7036-4366-94df-ff71700eb234.png)
+  ![Screenshot 2023-04-23 094522](https://user-images.githubusercontent.com/117245167/233843411-b7d7851b-e0d1-4264-877d-3fa753ffd3ac.png)
 
 
-## Logistic_regression
+## Mock Logistic_regression
  - Please refer to "Mock_Logistic_Regression.ipynb". After analyzing the data, my next task was to appply the data set to an initial Logistic regression model to see if/ how efficient we would be able to determine the math scores of the students based on the features/ columns in the Student_exams data set/ table. the initial step taken for this was to conver the "MAth_Score" column in to 1's and 0's based on the students score in ralation to being above/ below a score of 70. Where a score of 70 or greater was a 1 and anything below 70 was a 0.Next i created my features and placed in the the X variable, and the target feature (Math_score) in to the y variable. I Double checked the "X" dtypes and the value_counts of "y". Once determined that the variables were correctly allocated, I instanciated the train_test_split and applied random over sampling to the data set. Next I trained the model on the data set and calculated the results (which can be seen below).
  
  ![image](https://user-images.githubusercontent.com/117245167/233060496-13d702a4-f328-46a3-8ecb-cfff5b049d5e.png)
 
 
-## Balanced_Random_forrest/ Feature_Importances
+## Mock Balanced_Random_forrest/ Feature_Importances
  - In addition to the Logistic regression model i wanted to test our a balanced random forrest model on the data to compare accuracy scores and to also retrieve the feature iportances. I felt the feature importances could be an important detail in answering our intial question of determining which features best determined the math test scores. The coed in the "Bala_Rando_Forest.ipynb file essentially was initially boiler plate when compared to the logistic regression code. Converting the math_score column, creationg the features and targets, and the train_test_split. Then instead of random_over_sampling to sample the data, I applied a balanced Random Forest Clasifier to botain the balanced accuracy score and Geometric mean. Please see the reults below:
  
  ![image](https://user-images.githubusercontent.com/117245167/233061911-5e9470fa-c455-4e19-965d-67fc94470d3d.png)
@@ -119,7 +119,7 @@ JOIN "exam_scores" ON "demographics"."Student_ID" = "exam_scores"."Student_ID";
  ![image](https://user-images.githubusercontent.com/117245167/233062144-2e06cf76-72be-4dab-baf0-cbeeafd63cba.png)
 
 
-## Easy_Ensamble_AdaBoost
+## Mock Easy_Ensamble_AdaBoost
  - In Another attempt to compare models I wanted to test our data against an additional supervised Machine learning model. I did not optemize the data in any way and wanted to see what results we could get trying to predict the match scores using the Easy Ensamble AdaBoost method. The data was pre-processed very similerly to the previous two models and imported via the connection string linked to my SQL/ PGadmin account. The results below were similer to the balanced Random forrest classifier, but not as effective as the logistic regression model.
 
 ![Screenshot 2023-04-22 081531](https://user-images.githubusercontent.com/117245167/233784159-21fa94a9-1d0c-4943-aa33-c71ac08c8c57.png)
