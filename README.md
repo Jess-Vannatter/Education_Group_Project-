@@ -124,3 +124,14 @@ JOIN "exam_scores" ON "demographics"."Student_ID" = "exam_scores"."Student_ID";
  - In Another attempt to compare models I wanted to test our data against an additional supervised Machine learning model. I did not optemize the data in any way and wanted to see what results we could get trying to predict the match scores using the Easy Ensamble AdaBoost method. The data was pre-processed very similerly to the previous two models and imported via the connection string linked to my SQL/ PGadmin account. The results below were similer to the balanced Random forrest classifier, but not as effective as the logistic regression model.
 
 ![Screenshot 2023-04-22 081531](https://user-images.githubusercontent.com/117245167/233784159-21fa94a9-1d0c-4943-aa33-c71ac08c8c57.png)
+
+
+## Optimized Logistic Regression Model and Feature Importances
+ - We Chose the logistic regression model because it yeilded the highest accuracy score out of the 3 models tested. In order to optemize the model we really didint have many options since the data was already reletivily cleaned and balanced. What we were ablet o do is remove all outliers identified in the EDA process and try to see if removing the resampling process had any impact ot he overall accuracy score. iniitlaly i just removed the outliers for the Math Scoresz, but that did not yeild a positive outcome (accuracy score slightly lowered). By removing the outliers from all scoreing features, including Math, Reading, and Writing we were able to achieve an accuracy ~ 90%.In addition, it was determined re-sampling the data using the RandomOverSampler method also provided the best results.As removing the re-sampling process slightly reduced the accuracy score of the model. See the reults of our logistic regression model below, with all outliers removed from the scoring features and with the data re-sampled. 
+
+![Screenshot 2023-04-23 102434](https://user-images.githubusercontent.com/117245167/233845448-08f40678-a478-4664-85d5-fe5c0ecc4651.png)
+
+ - As a part of this analysis it was our goal to determine which features/ factors would best determine Math scores at or above the achievement threshold of 70. So in oredr to pin point the features that had the most impact on the math score prediction also obtained the "Feature Importances" of the Logistic Regression by generating the normalized coefficientsof each feature in the "X" array. Then printed the coefficients, along with their "Feature Names" in ascending order. See below, as well as in our Resources folder under the Feature_Importances.csv file.
+
+![image](https://user-images.githubusercontent.com/117245167/233845833-ee0f8e7b-3128-4bb8-8b87-17e89992f6d0.png)
+
