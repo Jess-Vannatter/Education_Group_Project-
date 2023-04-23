@@ -19,6 +19,7 @@ Use ML model to determine which faeatures/ factors best determine highre math sc
 - Google Docs
  -QuickDB
 - Jupyter Lab
+- Tableau
 
 ## Libraires
 - PANDAS
