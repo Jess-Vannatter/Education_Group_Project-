@@ -136,7 +136,7 @@ Lastly, the feature importances of the data set were pulled out and inspected to
 # Analysis Phase
 
 ## Confusion Matrix
- ![image]()
+ ![image](https://github.com/Jess-Vannatter/Education_Group_Project-/blob/7b0b448b17920d7713585f473d423d21e73cf9ef/confusion%20matrix.png)
 
 The confusion matrix, shown above, reveals the following:
 * The True Positives (TP) are the correct predictions of the "Pass" class - In this case, we have 113 true positives.
@@ -147,7 +147,7 @@ The confusion matrix, shown above, reveals the following:
 In summary, this confusion matrix indicates that the model correctly predicted 223 instances (110 true negatives + 113 true positives) and made 25 errors (11 false positives + 14 false negatives) in total. Additionally, the model appears to perform well overall since it has a high number of true positives and true negatives and a relatively low number of false positives and false negatives. 
 
 ## Classification Report
- ![image]()
+ ![image](https://github.com/Jess-Vannatter/Education_Group_Project-/blob/7b0b448b17920d7713585f473d423d21e73cf9ef/classification%20report.png)
  
 The classification report shows the precision, recall, specificity, F1-score, geometric mean, and index balanced accuracy (IBA) for each class as well as the average values across all classes.
 
