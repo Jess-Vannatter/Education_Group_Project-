@@ -35,7 +35,7 @@ The dataset that we chose is a simulated dataset that contains information on ma
 ## Communication Protocol
 We created a small group channel in Slack. The expectation is that responses to a post is made by end of day. It is expected that group members would check Slack minimally, once per day. The protocol can be revisited during each class meeting to determine if it is meeting the group's needs. In addition, we created a Google Drive to house relevant Google Sheets, Google Slides, and Segment Rubrics. In addition, we have committed to using designated class time efficiently, ensuring roles and tasks are clear.
 
-# Technical Work
+# Data Exploration: Technical Work
 ## Splitting Data
 Our initial data set came as one table. To meet project criteria, our goal was to split the data in to two tables containing demographic information of the students (Ethnicity, parental educational level, standard/ Free lunch (socio-eco), sex, and test preparation) and test scores (math, writing, and reading scores) respectively titled "demographics" and "exam_scores".  As a group, we discussed initial superficial updates to the data set including consistently naming columns. We also simplified naming of certain demographic descriptions for the sake of clarity. 
 
@@ -105,6 +105,17 @@ A function was created to print the outliers of the "Math_score" column, which w
   
   ![image](https://user-images.githubusercontent.com/117245167/233055852-b77a2337-7036-4366-94df-ff71700eb234.png)
 
+Addtional exploratory data analysis was conducted in Tableau to investigate data distribution, correlations, and patterns. A linear trend model was computed using the Math and Reading scores, producing the results seen in the images below. The data are strongly and positively correlated with a Pearson's R of 0.89 and a least squares regression line of prediceted math score = 17.86 + 0.77 (Reading Score). The coeffient of determination accounts for approximately 67% of the variance in the predicted Math Score.
+
+  ![image]()
+  
+A linear trend model was computed using the Math and Writing scores, producing the results seen in the images below. The data are strongly and positively correlated with a Pearson's R of 0.82 and a least squares regression line of prediceted math score = 13.94 + 0.81 (Reading Score). The coeffient of determination accounts for approximately 82% of the variance in the predicted Math Score.
+
+  ![image]()
+
+The distribution of Math Score data appears approximtely normal when divided by male/female data. 
+
+  ![image]()
 
 ## Logistic_regression
 Please refer to "Mock_Logistic_Regression.ipynb". After analyzing the data, Jess ran an initial Logistic regression model to see if and how efficiently we would be able to determine the math scores of the students based on the features/ columns in the Student_exams data set/ table. The initial step taken for this was to convert the "Math_Score" column in to 1's and 0's based on the student's score in relation to being above/ below a score of 70. Scores of 70 or greater were assigned a 1 and anything below 70 was assigned a 0. Next Jess created the features and placed them into the X variable and the target feature (Math_score) into the y variable. He double checked the "X" dtypes and the value counts of "y". Once it was determined that the variables were correctly allocated, I instantiated the train_test_split and applied random oversampling to the data set. Next the model was trained on the data set and calculated the results (which can be seen below).
@@ -120,6 +131,9 @@ In addition to the Logistic regression model, a balanced random forest model was
 Lastly, the feature importances of the data set were pulled out and inspected to help determine which features impacted the predictablility the most, which can be seen below:
  
  ![image](https://user-images.githubusercontent.com/117245167/233062144-2e06cf76-72be-4dab-baf0-cbeeafd63cba.png)
+
+# 
+
 
 # Formal Presentation
 [Work-in-Progress](https://docs.google.com/presentation/d/1Kom-E46sPTH8pOhf19zlzoUs71fJabneA08JeBoC3dM/edit?usp=sharing)
