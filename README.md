@@ -22,6 +22,18 @@ Additional, questions that we might be able to answer or shed some light on are 
 
 ## Tools
 PostgreSQL
+Tableau
+Python Scikit Learn Library - Logistic Regression
 
 ## The Plan
 Supervised Machine Learning, categorical?
+
+##Exploratory Analysis
+Outside of the pre-model development data cleansing, I chose to explore and understand the data by doing some tables and drill downs in Tableau.
+Observations from the Exploratory Analysis are as follows:
+
+
+##Next Steps
+  1. Dataset - If we had to do this project all again, we would most likely pick a different data source in order to get more features/factors.  We initially started researching the NAEP data, but it turned about to be overwhelming because there was so much data.  Due to the time constraints of the project we decided to go with a more streamlined dataset.
+  2. Data Cleaning - Our dataset was already very streamlined. Primarily, because it is simulated data.  After exploring the data and looking at the features/factors versus the dependent, Math Score, there were probably some additional grouping that we could have done on some of the categorical features. For example, some of the ethnicities seem to perform very similiar. 
+  3. 
