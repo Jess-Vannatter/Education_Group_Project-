@@ -6,6 +6,7 @@ The project will focus will focus on the education field, specifically mathemati
 
 ## Question
 What factors best predict mathematics achievement?
+Are there differences in math achievement by different demographic features?
 
 ## Data 
 ### Source 
