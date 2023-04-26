@@ -4,9 +4,9 @@
 ## Topic
 The project will focus will focus on the education field, specifically mathematics achievement. Two of the three members are currently classroom teachers and are passionate about student learning. 
 
-## Question
-What factors best predict mathematics achievement?
-Are there differences in math achievement by different demographic features?
+## Questions
+* What factors best predict mathematics achievement?
+* Are there differences in math achievement by different demographic features?
 
 ## Data 
 ### Source 
