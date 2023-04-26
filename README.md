@@ -133,9 +133,12 @@ Lastly, the feature importances of the data set were pulled out and inspected to
  
  ![image](https://user-images.githubusercontent.com/117245167/233062144-2e06cf76-72be-4dab-baf0-cbeeafd63cba.png)
 
+
 # Analysis Phase
 
-## Confusion Matrix
+## Question 1: What factors best predict mathematics achievement?
+
+### Confusion Matrix
  ![image](https://github.com/Jess-Vannatter/Education_Group_Project-/blob/7b0b448b17920d7713585f473d423d21e73cf9ef/confusion%20matrix.png)
 
 The confusion matrix, shown above, reveals the following:
@@ -146,7 +149,7 @@ The confusion matrix, shown above, reveals the following:
 
 In summary, this confusion matrix indicates that the model correctly predicted 223 instances (110 true negatives + 113 true positives) and made 25 errors (11 false positives + 14 false negatives) in total. Additionally, the model appears to perform well overall since it has a high number of true positives and true negatives and a relatively low number of false positives and false negatives. 
 
-## Classification Report
+### Classification Report
  ![image](https://github.com/Jess-Vannatter/Education_Group_Project-/blob/7b0b448b17920d7713585f473d423d21e73cf9ef/classification%20report.png)
  
 The classification report shows the precision, recall, specificity, F1-score, geometric mean, and index balanced accuracy (IBA) for each class as well as the average values across all classes.
@@ -159,6 +162,22 @@ The classification report shows the precision, recall, specificity, F1-score, ge
 * The IBA for Fail is 0.81, which is a measure of the classifier's overall performance for this class.
 
 The same set of metrics is reported for Pass, and in this case, the precision, recall, specificity, F1-score, geometric mean, and IBA are 0.91, 0.89, 0.91, 0.90, 0.90, and 0.81, respectively. Finally, the average values across both classes are also reported in the report. In this case, the average precision, recall, specificity, F1-score, geometric mean, and IBA are 0.90, 0.90, 0.90, 0.90, 0.90, and 0.81, respectively. Overall, based on this report, the model appears to perform well for both classes with high precision, recall, and F1-score, indicating that it is able to accurately classify instances from both classes. 
+
+### Feature Importances
+
+  ![image](https://github.com/Jess-Vannatter/Education_Group_Project-/blob/725588875c64aae11a46200899b84b1a3d427606/feature%20importances.png)
+
+These feature importances indicate the relative importance of each feature in predicting math achievement in the model. The features are ranked in descending order of their importance, with the most important feature listed first.
+
+According to the feature importances, the top 3 features that have the most impact on the target variable are:
+* Sex_female: This feature has the highest importance with a value of 0.174236.
+* Lunch_reduced: This feature has an importance of 0.127047. 
+* Test_Prep_completed: This feature has an importance of 0.122090.
+* Other features such as ethnicity, parental level of education, and individual test scores also contribute to predicting the target variable, but to a lesser extent.
+
+## Question 2: Are there differences in math achievement by different demographic features?
+
+Link to Erica's tableau (https://public.tableau.com/views/MathAchievement_PieDashboard/Story1?:language=en-US&:display_count=n&:origin=viz_share_link); need to add analysis
 
 
 # Formal Presentation
