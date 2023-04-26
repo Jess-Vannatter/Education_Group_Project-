@@ -36,7 +36,7 @@ The dataset that we chose is a simulated dataset that contains information on ma
 ## Communication Protocol
 We created a small group channel in Slack. The expectation is that responses to a post is made by end of day. It is expected that group members would check Slack minimally, once per day. The protocol can be revisited during each class meeting to determine if it is meeting the group's needs. In addition, we created a Google Drive to house relevant Google Sheets, Google Slides, and Segment Rubrics. In addition, we have committed to using designated class time efficiently, ensuring roles and tasks are clear.
 
-# Data Exploration: Technical Work
+# Data Exploration Phase: Technical Work
 ## Splitting Data
 Our initial data set came as one table. To meet project criteria, our goal was to split the data in to two tables containing demographic information of the students (Ethnicity, parental educational level, standard/ Free lunch (socio-eco), sex, and test preparation) and test scores (math, writing, and reading scores) respectively titled "demographics" and "exam_scores".  As a group, we discussed initial superficial updates to the data set including consistently naming columns. We also simplified naming of certain demographic descriptions for the sake of clarity. 
 
@@ -133,7 +133,32 @@ Lastly, the feature importances of the data set were pulled out and inspected to
  
  ![image](https://user-images.githubusercontent.com/117245167/233062144-2e06cf76-72be-4dab-baf0-cbeeafd63cba.png)
 
-# 
+# Analysis Phase
+
+## Confusion Matrix
+ ![image]()
+
+The confusion matrix, shown above, reveals the following:
+* The True Positives (TP) are the correct predictions of the "Pass" class - In this case, we have 113 true positives.
+* The False Positives (FP) are the incorrect predictions of the "Pass" class - In this case, we have 11 false positives.
+* The True Negatives (TN) are the correct predictions of the "Fail" class - In this case, we have 110 true negatives.
+* The False Negatives (FN) are the incorrect predictions of the "Fail" class - In this case, we have 14 false negatives.
+
+In summary, this confusion matrix indicates that the model correctly predicted 223 instances (110 true negatives + 113 true positives) and made 25 errors (11 false positives + 14 false negatives) in total. Additionally, the model appears to perform well overall since it has a high number of true positives and true negatives and a relatively low number of false positives and false negatives. 
+
+## Classification Report
+ ![image]()
+ 
+The classification report shows the precision, recall, specificity, F1-score, geometric mean, and index balanced accuracy (IBA) for each class as well as the average values across all classes.
+
+* The precision for Fail is 0.89, which means that out of all the predicted negatives, 89% of them are truly negative (true negatives / (true negatives + false negatives)).
+* The recall for Fail is 0.91, which means that out of all the true negatives, 91% of them are correctly identified as negative (true negatives / (true negatives + false positives)).
+* The specificity for Fail is 0.89, which means that out of all the actual negatives, 89% of them are correctly identified as negative (true negatives / (true negatives + false positives)).
+* The F1-score for Fail is 0.90, which is the harmonic mean of precision and recall, and is a measure of the classifier's overall accuracy for this class.
+* The geometric mean for Fail is 0.90, which is a measure of the classifier's overall ability to balance both recall and specificity.
+* The IBA for Fail is 0.81, which is a measure of the classifier's overall performance for this class.
+
+The same set of metrics is reported for Pass, and in this case, the precision, recall, specificity, F1-score, geometric mean, and IBA are 0.91, 0.89, 0.91, 0.90, 0.90, and 0.81, respectively. Finally, the average values across both classes are also reported in the report. In this case, the average precision, recall, specificity, F1-score, geometric mean, and IBA are 0.90, 0.90, 0.90, 0.90, 0.90, and 0.81, respectively. Overall, based on this report, the model appears to perform well for both classes with high precision, recall, and F1-score, indicating that it is able to accurately classify instances from both classes. 
 
 
 # Formal Presentation
