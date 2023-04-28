@@ -138,3 +138,5 @@ JOIN "exam_scores" ON "demographics"."Student_ID" = "exam_scores"."Student_ID";
  - Once the feature importances were determined we attempted to further optimize our model by cultivating the feature importances via a feature selection process. We tried removing feature importances with "importances" lower than 0.4 and the again at .02. Lastly we tried running the same logistic regression model after removing the 2 least important features as presented above but were not able to achieve an accuracy score greater than 86%. So it was determined that the features in the list above should remain in the model. You can see these attempts in my "Optimization_Trial_Error" folder.
 
 
+## Tableau EDA - Please see images folder
+https://public.tableau.com/app/profile/jvannatter6/viz/Group_Project-Student_exams_Visualizations/PassingscoresbyEthnicity
