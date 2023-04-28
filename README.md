@@ -103,7 +103,7 @@ JOIN "exam_scores" ON "demographics"."Student_ID" = "exam_scores"."Student_ID";
   
   ![Screenshot 2023-04-23 094522](https://user-images.githubusercontent.com/117245167/233843411-b7d7851b-e0d1-4264-877d-3fa753ffd3ac.png)
 
-
+# Mock Machine Learning Models
 ## Mock Logistic_regression
  - Please refer to "Mock_Logistic_Regression.ipynb". After analyzing the data, my next task was to appply the data set to an initial Logistic regression model to see if/ how efficient we would be able to determine the math scores of the students based on the features/ columns in the Student_exams data set/ table. the initial step taken for this was to conver the "MAth_Score" column in to 1's and 0's based on the students score in ralation to being above/ below a score of 70. Where a score of 70 or greater was a 1 and anything below 70 was a 0.Next i created my features and placed in the the X variable, and the target feature (Math_score) in to the y variable. I Double checked the "X" dtypes and the value_counts of "y". Once determined that the variables were correctly allocated, I instanciated the train_test_split and applied random over sampling to the data set. Next I trained the model on the data set and calculated the results (which can be seen below).
  
@@ -124,6 +124,26 @@ JOIN "exam_scores" ON "demographics"."Student_ID" = "exam_scores"."Student_ID";
  - In Another attempt to compare models I wanted to test our data against an additional supervised Machine learning model. I did not optemize the data in any way and wanted to see what results we could get trying to predict the match scores using the Easy Ensamble AdaBoost method. The data was pre-processed very similerly to the previous two models and imported via the connection string linked to my SQL/ PGadmin account. The results below were similer to the balanced Random forrest classifier, but not as effective as the logistic regression model.
 
 ![Screenshot 2023-04-22 081531](https://user-images.githubusercontent.com/117245167/233784159-21fa94a9-1d0c-4943-aa33-c71ac08c8c57.png)
+
+## Mock SVM
+ - THe SVM machine learning model was able to produce substantial results with an 0.884 accuracy score when predicting Math achievement. this should be noted and will be tested with optimized data and compared to the optimized  Logistic Regression model.
+ 
+ ![image](https://user-images.githubusercontent.com/117245167/235138858-4691519d-e992-4cc5-ae5f-148c4d34d91c.png)
+
+## Mock Gradient Boost
+ - The gradient boosted model produced similer results but came up slightly short when compared to the Logistic rgression and SVM models. You can see the optimization attempts in the optimization_trial_error folder.
+ 
+ ![image](https://user-images.githubusercontent.com/117245167/235139474-67215baf-fe2a-4d99-9a51-4b22026c4b4e.png)
+
+## Mock Decision Tree
+ - The Decision tree model yeilded an accuracy score of 0.78 which when compared to the stronger models does not hold up.
+ 
+ ![image](https://user-images.githubusercontent.com/117245167/235139885-74493b98-d0b1-4dec-b0c7-129541afbb6f.png)
+
+## Mock KNN
+ - the initial KNN model produced an accuracy score `0.80, but this was the first model where i attempted hyperparameter tuning. See below. i was not able to achieve a comparable accuracy score to the logistic regression model though.
+ 
+ ![image](https://user-images.githubusercontent.com/117245167/235140467-2d91eff0-b348-4d1c-83b8-55cd1526c65f.png)
 
 
 ## Optimized Logistic Regression Model and Feature Importances
