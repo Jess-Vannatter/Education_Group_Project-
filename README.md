@@ -108,15 +108,15 @@ A function was created to print the outliers of the "Math_score" column, which w
 
 Addtional exploratory data analysis was conducted in Tableau to investigate data distribution, correlations, and patterns. A linear trend model was computed using the Math and Reading scores, producing the results seen in the images below. The data are strongly and positively correlated with a Pearson's R of 0.89 and a least squares regression line of prediceted math score = 17.86 + 0.77 (Reading Score). The coeffient of determination accounts for approximately 67% of the variance in the predicted Math Score.
 
-  ![image](https://github.com/Jess-Vannatter/Education_Group_Project-/blob/b121dd3593727b9cbca65b1031bef44693b51d03/math%20v%20reading%20score%20eda.png)
+  ![image](https://github.com/Jess-Vannatter/Education_Group_Project-/blob/a81a12ce3aee275df7b47271cca4e76b2a1b2235/Resources/math%20v%20reading%20score%20eda.png)
   
 A linear trend model was computed using the Math and Writing scores, producing the results seen in the images below. The data are strongly and positively correlated with a Pearson's R of 0.82 and a least squares regression line of prediceted math score = 13.94 + 0.81 (Reading Score). The coeffient of determination accounts for approximately 82% of the variance in the predicted Math Score.
 
-  ![image](https://github.com/Jess-Vannatter/Education_Group_Project-/blob/b121dd3593727b9cbca65b1031bef44693b51d03/math%20v%20writing%20score%20eda.png)
+  ![image](https://github.com/Jess-Vannatter/Education_Group_Project-/blob/a81a12ce3aee275df7b47271cca4e76b2a1b2235/Resources/math%20v%20writing%20score%20eda.png)
 
 The distribution of Math Score data appears approximtely normal when divided by male/female data. 
 
-  ![image](https://github.com/Jess-Vannatter/Education_Group_Project-/blob/b121dd3593727b9cbca65b1031bef44693b51d03/math%20distribution.png)
+  ![image](https://github.com/Jess-Vannatter/Education_Group_Project-/blob/a81a12ce3aee275df7b47271cca4e76b2a1b2235/Resources/math%20distribution.png)
 
 ## Logistic_regression
 Please refer to "Mock_Logistic_Regression.ipynb". After analyzing the data, Jess ran an initial Logistic regression model to see if and how efficiently we would be able to determine the math scores of the students based on the features/ columns in the Student_exams data set/ table. The initial step taken for this was to convert the "Math_Score" column in to 1's and 0's based on the student's score in relation to being above/ below a score of 70. Scores of 70 or greater were assigned a 1 and anything below 70 was assigned a 0. Next Jess created the features and placed them into the X variable and the target feature (Math_score) into the y variable. He double checked the "X" dtypes and the value counts of "y". Once it was determined that the variables were correctly allocated, I instantiated the train_test_split and applied random oversampling to the data set. Next the model was trained on the data set and calculated the results (which can be seen below).
