@@ -141,11 +141,11 @@ JOIN "exam_scores" ON "demographics"."Student_ID" = "exam_scores"."Student_ID";
  ![image](https://user-images.githubusercontent.com/117245167/235139885-74493b98-d0b1-4dec-b0c7-129541afbb6f.png)
 
 ## Mock KNN
- - he initial KNN model produced an accuracy score `0.80, but this was the first model where i attempted hyperparameter tuning. See below. i was not able to achieve a comparable accuracy score to the logistic regression model though.
+ - The initial KNN model produced an accuracy score `0.80, but this was the first model where i attempted hyperparameter tuning. See below. i was not able to achieve a comparable accuracy score to the logistic regression model though.
  
  ![image](https://user-images.githubusercontent.com/117245167/235140467-2d91eff0-b348-4d1c-83b8-55cd1526c65f.png)
 
-## Optimizing the model based on EDA
+### Optimizing the model based on EDA
  - As a group we all worked on the EDA process and after our mock machine learning trials and applying them to our data we discovered a couple of optimization oppurtuniys. First we established the outliers in our data set. there were a toal of 9 scores in our data set between reading, writing, and math that feel below the lower Q1 limit (which can be seen above). Once thesewere identified we removed these from the data sets we used when optimizing our models. In addition, we ran feature correlation analysis on the 3 continuous features (math, reading, writing scores) and it was determined the reading and writing scores were statistically very similer to each other. With this being determined we decided to remove the weaker of the two in determining the math score, which was the writing_score.
 
 ## Hyperparameter Tuning
