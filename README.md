@@ -114,6 +114,13 @@ A linear trend model was computed using the Math and Writing scores, producing t
 
   ![image](https://github.com/Jess-Vannatter/Education_Group_Project-/blob/a81a12ce3aee275df7b47271cca4e76b2a1b2235/Resources/math%20v%20writing%20score%20eda.png)
 
+
+To determine if the the reading scores and writing scores were collinear, a linear trend model was computed. The resulting Pearson's R was 0.945, indicating that the two measures were collinear. As a result, the writing score was removed from further calculations.
+
+
+  ![image](https://github.com/Jess-Vannatter/Education_Group_Project-/blob/0766b7729796bc67709717272b63c57693fe07f2/Resources/reading_v_writing.png)
+
+
 The distribution of Math Score data appears approximtely normal when divided by male/female data. 
 
   ![image](https://github.com/Jess-Vannatter/Education_Group_Project-/blob/a81a12ce3aee275df7b47271cca4e76b2a1b2235/Resources/math%20distribution.png)
