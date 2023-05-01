@@ -53,4 +53,4 @@ Within each ethnicity we can see a large disparity in math proficiency for stude
   4. Data Cleansing - Try Manual encoding to observe the impact on feature importance.
 
 ## Model Usage
-While this model could be  useful for an educator to make general observations and possibly general instructional decisions, it most likely cannot be used to make individualized decision for students as some of these features could have a disparate impact as they are potentially prohibited or highly correlated to a prohibited basis.  If we wanted to use this model for things like differentiation, lesson planning, etc. we would have to remove any features/factors that could be considered as a prohibited basis (ie. race, gender, income, etc.).
+While this model could be  useful for an educator to make general observations and instructional decisions for targeted classroom interventions; care must be given to other uses to avoid the possibility of tracking based on prohibited basis (ie. race/ethnicity, gender, age, etc.)
