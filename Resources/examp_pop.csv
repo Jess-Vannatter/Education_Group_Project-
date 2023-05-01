@@ -1,0 +1,1001 @@
+student_id,math_score,reading_score,writing_score,ethnicity,gender,ple,lunch,test_prep
+00001,59,70,78,group D,female,some college    ,standard,completed
+00002,96,93,87,group D,male  ,associate       ,standard,none     
+00003,57,76,77,group D,female,some college    ,reduced ,none     
+00004,70,70,63,group B,male  ,some college    ,reduced ,none     
+00005,83,85,86,group D,female,associate       ,standard,none     
+00006,68,57,54,group C,male  ,some high school,standard,none     
+00007,82,83,80,group E,female,associate       ,standard,none     
+00008,46,61,58,group B,female,some high school,standard,none     
+00009,80,75,73,group C,male  ,some high school,standard,none     
+00010,57,69,77,group C,female,bachelor        ,standard,completed
+00011,74,69,69,group B,male  ,some high school,standard,none     
+00012,53,50,49,group B,male  ,master          ,standard,none     
+00013,76,74,76,group B,male  ,bachelor        ,reduced ,none     
+00014,70,73,70,group A,male  ,some college    ,standard,none     
+00015,55,54,52,group C,male  ,master's degree ,reduced ,none     
+00016,56,46,43,group E,male  ,master          ,reduced ,none     
+00017,35,47,41,group C,female,some college    ,reduced ,none     
+00018,87,92,81,group C,female,high school     ,standard,none     
+00019,80,82,85,group E,female,associate       ,reduced ,none     
+00020,65,71,74,group D,female,associate       ,standard,completed
+00021,66,66,62,group C,male  ,high school     ,reduced ,none     
+00022,67,71,76,group D,female,associate       ,standard,completed
+00023,70,71,71,group B,female,some college    ,standard,none     
+00024,89,88,86,group E,male  ,associate       ,standard,none     
+00025,99,85,88,group D,male  ,associate       ,standard,completed
+00026,74,83,72,group B,male  ,some college    ,standard,none     
+00027,58,52,51,group D,male  ,high school     ,reduced ,none     
+00028,70,66,59,group D,male  ,some high school,standard,none     
+00029,80,79,71,group E,female,associate       ,standard,none     
+00030,90,87,86,group D,male  ,associate       ,standard,none     
+00031,80,81,85,group B,female,associate       ,standard,completed
+00032,68,76,79,group D,female,associate       ,reduced ,none     
+00033,69,78,75,group B,female,high school     ,reduced ,completed
+00034,32,35,37,group D,female,master          ,reduced ,none     
+00035,82,82,82,group D,male  ,high school     ,standard,completed
+00036,57,53,54,group A,female,some high school,standard,none     
+00037,69,74,75,group E,female,some college    ,reduced ,none     
+00038,68,66,72,group D,male  ,associate       ,standard,completed
+00039,74,85,87,group C,male  ,associate       ,reduced ,completed
+00040,89,85,78,group E,male  ,master          ,standard,none     
+00041,46,46,48,group C,male  ,associate       ,reduced ,completed
+00042,76,82,77,group C,male  ,associate       ,standard,completed
+00043,86,82,72,group B,male  ,high school     ,standard,none     
+00044,69,73,67,group D,male  ,some college    ,standard,none     
+00045,52,56,54,group B,female,high school     ,standard,none     
+00046,63,71,65,group C,male  ,bachelor        ,standard,none     
+00047,96,82,90,group A,male  ,associate       ,standard,completed
+00048,80,76,68,group C,male  ,some college    ,standard,completed
+00049,59,52,56,group E,female,high school     ,standard,none     
+00050,80,77,80,group D,male  ,some high school,standard,completed
+00051,65,77,74,group E,female,high school     ,reduced ,completed
+00052,74,83,84,group E,female,master          ,reduced ,completed
+00053,90,93,84,group D,male  ,some high school,standard,none     
+00054,69,72,72,group B,female,some college    ,standard,completed
+00055,69,67,63,group C,male  ,high school     ,standard,none     
+00056,62,64,61,group C,female,some college    ,standard,none     
+00057,67,75,80,group D,female,master          ,standard,none     
+00058,89,93,93,group E,female,some high school,standard,completed
+00059,79,86,78,group C,female,bachelor        ,standard,none     
+00060,67,66,66,group C,male  ,some high school,standard,none     
+00061,82,74,75,group D,male  ,some high school,standard,completed
+00062,63,69,63,group C,male  ,some high school,reduced ,completed
+00063,71,83,80,group D,female,some college    ,reduced ,none     
+00064,55,68,73,group C,female,associate       ,standard,none     
+00065,61,74,71,group B,female,high school     ,reduced ,none     
+00066,35,34,36,group B,female,associate       ,reduced ,none     
+00067,75,77,66,group C,male  ,high school     ,reduced ,none     
+00068,73,91,88,group B,female,some high school,reduced ,completed
+00069,56,62,57,group C,female,high school     ,reduced ,none     
+00070,80,70,73,group D,male  ,associate       ,standard,none     
+00071,83,81,78,group C,male  ,some high school,standard,completed
+00072,64,82,80,group D,female,some college    ,reduced ,completed
+00073,23,33,33,group C,female,some high school,standard,none     
+00074,41,58,59,group D,female,some high school,reduced ,completed
+00075,61,49,52,group E,male  ,some college    ,standard,completed
+00076,63,46,46,group B,male  ,bachelor        ,standard,none     
+00077,84,91,89,group B,male  ,associate       ,reduced ,completed
+00078,55,61,59,group C,male  ,some college    ,standard,none     
+00079,85,75,74,group A,male  ,associate       ,standard,completed
+00080,65,61,57,group B,male  ,high school     ,standard,none     
+00081,88,80,81,group C,male  ,associate       ,standard,none     
+00082,91,93,95,group D,male  ,master          ,reduced ,completed
+00083,51,46,42,group A,female,some college    ,standard,none     
+00084,73,77,76,group C,male  ,some college    ,standard,completed
+00085,73,89,89,group D,female,some college    ,standard,none     
+00086,100,97,91,group D,male  ,master          ,standard,none     
+00087,48,68,68,group D,female,some high school,standard,completed
+00088,98,79,85,group E,male  ,some college    ,standard,none     
+00089,68,65,60,group B,male  ,master          ,standard,none     
+00090,64,62,58,group C,male  ,bachelor        ,standard,none     
+00091,72,67,61,group C,male  ,associate       ,reduced ,completed
+00092,63,74,75,group C,female,bachelor        ,standard,none     
+00093,43,51,38,group C,male  ,some college    ,standard,none     
+00094,80,75,74,group D,male  ,some college    ,standard,none     
+00095,71,88,83,group C,female,some college    ,standard,none     
+00096,91,96,97,group C,female,associate       ,standard,completed
+00097,68,84,87,group D,female,some college    ,standard,completed
+00098,73,80,78,group B,female,associate       ,standard,none     
+00099,75,90,95,group B,female,high school     ,reduced ,completed
+00100,83,62,64,group C,male  ,some college    ,reduced ,none     
+00101,88,72,74,group D,male  ,high school     ,standard,none     
+00102,59,50,53,group C,male  ,bachelor        ,standard,none     
+00103,74,69,63,group D,male  ,associate       ,standard,none     
+00104,43,58,60,group C,female,some college    ,reduced ,none     
+00105,76,90,84,group C,female,high school     ,reduced ,none     
+00106,74,75,74,group D,female,some high school,standard,none     
+00107,69,76,72,group B,female,some high school,standard,completed
+00108,62,78,74,group B,female,some high school,standard,none     
+00109,61,58,56,group C,male  ,associate       ,reduced ,completed
+00110,88,81,77,group E,male  ,some college    ,standard,none     
+00111,64,84,83,group D,female,some high school,reduced ,completed
+00112,65,79,73,group B,female,bachelor        ,standard,none     
+00113,73,86,89,group C,female,some college    ,standard,completed
+00114,50,64,63,group C,female,master          ,standard,completed
+00115,63,72,78,group B,female,associate       ,standard,completed
+00116,98,95,100,group E,female,bachelor        ,standard,none     
+00117,90,96,88,group E,female,high school     ,standard,none     
+00118,64,71,68,group C,male  ,high school     ,reduced ,completed
+00119,38,55,52,group B,female,high school     ,reduced ,none     
+00120,84,91,93,group B,female,bachelor        ,standard,none     
+00121,81,74,79,group D,male  ,high school     ,standard,completed
+00122,82,84,81,group D,male  ,master          ,standard,none     
+00123,64,67,75,group D,female,associate       ,reduced ,completed
+00124,55,60,67,group B,female,high school     ,standard,none     
+00125,59,78,80,group D,female,bachelor        ,reduced ,completed
+00126,83,90,88,group E,female,some college    ,standard,none     
+00127,76,79,80,group B,male  ,associate       ,standard,completed
+00128,83,95,97,group D,female,some high school,standard,completed
+00129,69,75,75,group C,female,associate       ,standard,none     
+00130,43,65,60,group C,female,some college    ,reduced ,none     
+00131,52,65,60,group C,female,associate       ,reduced ,none     
+00132,56,58,55,group C,female,some college    ,standard,none     
+00133,47,46,51,group D,male  ,some high school,reduced ,completed
+00134,71,61,63,group D,male  ,master          ,standard,none     
+00135,66,70,83,group C,female,master          ,standard,completed
+00136,81,65,60,group C,male  ,some college    ,standard,none     
+00137,85,90,88,group E,female,master          ,standard,none     
+00138,76,77,77,group E,female,master          ,standard,none     
+00139,50,66,66,group D,female,some college    ,reduced ,none     
+00140,76,81,74,group C,male  ,high school     ,standard,none     
+00141,65,64,61,group C,male  ,some college    ,standard,none     
+00142,59,69,64,group D,female,high school     ,standard,none     
+00143,84,77,80,group C,male  ,high school     ,standard,none     
+00144,85,77,78,group E,male  ,bachelor        ,standard,none     
+00145,61,56,60,group D,female,associate       ,standard,none     
+00146,73,79,81,group A,female,bachelor        ,standard,completed
+00147,82,77,72,group D,male  ,some high school,standard,none     
+00148,75,70,71,group E,female,associate       ,standard,none     
+00149,91,83,82,group C,male  ,bachelor        ,standard,none     
+00150,67,78,80,group C,female,master          ,standard,none     
+00151,62,69,67,group D,male  ,high school     ,standard,completed
+00152,61,56,52,group B,male  ,master          ,standard,none     
+00153,66,77,80,group C,female,high school     ,standard,none     
+00154,59,57,51,group A,male  ,master          ,standard,none     
+00155,88,76,81,group E,male  ,some college    ,standard,none     
+00156,67,73,74,group B,female,associate       ,reduced ,none     
+00157,91,99,100,group B,female,associate       ,standard,completed
+00158,87,82,79,group C,male  ,associate       ,reduced ,completed
+00159,83,79,80,group B,male  ,some college    ,standard,completed
+00160,70,79,76,group D,female,associate       ,standard,none     
+00161,83,83,78,group E,male  ,associate       ,standard,none     
+00162,49,53,47,group C,male  ,associate       ,standard,none     
+00163,65,60,57,group D,male  ,high school     ,standard,completed
+00164,50,56,55,group B,male  ,associate       ,reduced ,completed
+00165,62,58,57,group A,male  ,some college    ,standard,none     
+00166,56,50,50,group E,male  ,bachelor        ,standard,none     
+00167,44,49,53,group C,female,associate       ,standard,none     
+00168,63,72,60,group E,female,some high school,reduced ,none     
+00169,72,69,74,group D,male  ,high school     ,standard,completed
+00170,64,77,77,group D,female,bachelor        ,reduced ,completed
+00171,61,75,82,group B,female,some college    ,standard,completed
+00172,82,72,69,group D,male  ,some college    ,reduced ,none     
+00173,57,68,74,group A,female,some high school,standard,completed
+00174,43,45,38,group E,male  ,master          ,standard,none     
+00175,69,56,59,group D,male  ,some high school,standard,none     
+00176,62,71,74,group D,female,master          ,standard,none     
+00177,60,73,68,group B,female,some high school,standard,none     
+00178,81,70,70,group E,male  ,high school     ,standard,none     
+00179,68,84,87,group C,female,associate       ,reduced ,completed
+00180,65,63,57,group C,male  ,associate       ,standard,none     
+00181,59,72,67,group B,female,high school     ,standard,none     
+00182,81,89,86,group B,female,associate       ,standard,none     
+00183,84,85,87,group A,male  ,master          ,reduced ,none     
+00184,56,68,70,group A,female,high school     ,standard,completed
+00185,71,75,73,group B,male  ,master          ,reduced ,completed
+00186,93,98,94,group D,female,master          ,reduced ,none     
+00187,77,81,85,group C,female,high school     ,standard,none     
+00188,50,40,44,group C,male  ,some college    ,standard,none     
+00189,75,75,78,group D,female,some college    ,standard,none     
+00190,64,82,80,group C,female,bachelor        ,standard,none     
+00191,77,65,69,group C,male  ,bachelor        ,standard,none     
+00192,64,81,87,group A,female,some high school,standard,completed
+00193,71,63,55,group B,male  ,some high school,standard,none     
+00194,58,57,53,group D,male  ,some high school,reduced ,completed
+00195,47,66,66,group D,female,high school     ,reduced ,none     
+00196,57,63,54,group D,male  ,associate       ,standard,none     
+00197,82,89,86,group C,male  ,some college    ,standard,completed
+00198,53,61,59,group B,female,master          ,standard,none     
+00199,89,98,99,group C,female,associate       ,reduced ,completed
+00200,89,94,94,group E,female,some college    ,standard,completed
+00201,75,97,92,group A,female,some college    ,reduced ,completed
+00202,62,61,57,group D,male  ,some college    ,reduced ,none     
+00203,63,76,67,group B,female,high school     ,standard,none     
+00204,100,91,85,group E,male  ,high school     ,standard,none     
+00205,62,81,77,group B,female,associate       ,standard,none     
+00206,75,95,94,group B,female,associate       ,standard,none     
+00207,51,56,53,group C,male  ,some college    ,standard,none     
+00208,74,67,67,group E,male  ,master          ,reduced ,none     
+00209,66,66,58,group C,male  ,high school     ,reduced ,none     
+00210,52,59,59,group C,male  ,some high school,standard,completed
+00211,69,56,56,group E,male  ,master          ,reduced ,none     
+00212,46,57,57,group E,female,some high school,reduced ,completed
+00213,74,77,73,group E,female,some college    ,standard,none     
+00214,100,90,88,group B,male  ,master          ,standard,none     
+00215,83,77,77,group A,male  ,some high school,standard,none     
+00216,82,78,90,group D,male  ,associate       ,reduced ,completed
+00217,58,66,70,group D,female,high school     ,standard,none     
+00218,59,55,58,group A,male  ,some high school,reduced ,completed
+00219,77,90,82,group D,female,high school     ,standard,none     
+00220,61,61,57,group E,female,high school     ,standard,none     
+00221,85,81,80,group C,male  ,master          ,standard,none     
+00222,59,68,68,group E,female,high school     ,reduced ,completed
+00223,71,92,93,group C,female,master          ,reduced ,completed
+00224,52,71,70,group E,female,some high school,standard,none     
+00225,62,62,68,group D,female,some college    ,standard,none     
+00226,47,48,49,group B,male  ,associate       ,standard,none     
+00227,96,92,88,group D,male  ,some college    ,standard,completed
+00228,48,60,57,group E,female,some high school,standard,none     
+00229,20,25,15,group C,male  ,high school     ,reduced ,none     
+00230,70,75,76,group C,female,some high school,standard,none     
+00231,59,62,58,group B,male  ,high school     ,reduced ,completed
+00232,80,80,83,group E,female,associate       ,reduced ,none     
+00233,83,88,90,group B,female,some college    ,standard,none     
+00234,75,71,76,group C,male  ,bachelor        ,standard,none     
+00235,73,68,72,group D,male  ,some college    ,reduced ,completed
+00236,78,78,82,group C,female,associate       ,standard,none     
+00237,94,82,93,group B,male  ,bachelor        ,standard,completed
+00238,46,63,66,group B,female,some high school,reduced ,completed
+00239,77,77,77,group D,male  ,some college    ,reduced ,completed
+00240,63,56,47,group B,male  ,some high school,standard,none     
+00241,64,70,72,group B,male  ,bachelor        ,standard,completed
+00242,60,69,70,group D,female,some high school,reduced ,none     
+00243,74,79,73,group D,female,some college    ,standard,none     
+00244,67,77,81,group B,female,high school     ,reduced ,none     
+00245,78,81,80,group C,male  ,high school     ,standard,completed
+00246,88,75,72,group C,male  ,high school     ,standard,completed
+00247,52,64,66,group C,female,associate       ,reduced ,completed
+00248,88,66,73,group C,male  ,high school     ,standard,none     
+00249,78,88,85,group A,male  ,high school     ,standard,completed
+00250,55,62,61,group C,female,high school     ,standard,none     
+00251,71,69,73,group C,female,some college    ,standard,none     
+00252,75,79,68,group C,male  ,high school     ,reduced ,none     
+00253,62,60,55,group B,male  ,bachelor        ,standard,completed
+00254,66,73,72,group B,female,bachelor        ,standard,completed
+00255,39,45,36,group D,male  ,bachelor        ,standard,none     
+00256,85,80,73,group B,male  ,some college    ,standard,none     
+00257,46,57,53,group B,female,high school     ,reduced ,none     
+00258,57,64,66,group C,male  ,master          ,reduced ,completed
+00259,65,78,81,group B,female,associate       ,standard,completed
+00260,86,82,72,group C,male  ,some college    ,standard,none     
+00261,59,50,41,group C,male  ,some high school,standard,none     
+00262,49,69,68,group D,female,some high school,reduced ,completed
+00263,51,50,44,group B,male  ,some college    ,reduced ,none     
+00264,53,57,60,group A,female,associate       ,standard,none     
+00265,82,84,83,group C,female,some college    ,standard,none     
+00266,51,68,66,group C,female,high school     ,reduced ,none     
+00267,74,79,79,group D,female,some high school,standard,none     
+00268,73,72,75,group D,female,master          ,reduced ,none     
+00269,42,61,63,group D,female,high school     ,reduced ,none     
+00270,41,59,56,group C,female,some college    ,reduced ,completed
+00271,84,88,84,group C,female,some college    ,standard,none     
+00272,64,66,62,group D,female,some college    ,reduced ,completed
+00273,74,88,75,group E,female,high school     ,reduced ,none     
+00274,91,84,77,group C,male  ,associate       ,standard,none     
+00275,67,72,65,group D,male  ,associate       ,standard,none     
+00276,54,56,59,group B,female,high school     ,standard,none     
+00277,44,39,37,group D,female,master          ,standard,none     
+00278,65,84,86,group C,female,master          ,standard,completed
+00279,37,40,36,group A,male  ,associate       ,standard,none     
+00280,58,75,78,group A,female,associate       ,reduced ,none     
+00281,69,78,78,group C,female,bachelor        ,reduced ,none     
+00282,64,56,51,group C,male  ,some high school,standard,none     
+00283,70,63,63,group C,female,high school     ,standard,none     
+00284,55,68,66,group B,female,high school     ,reduced ,none     
+00285,45,63,67,group B,female,some college    ,standard,completed
+00286,80,70,71,group E,male  ,some college    ,standard,completed
+00287,77,73,69,group A,male  ,some college    ,standard,none     
+00288,57,54,44,group B,male  ,bachelor        ,reduced ,none     
+00289,67,72,72,group C,female,bachelor        ,standard,none     
+00290,68,70,72,group A,female,master          ,standard,none     
+00291,49,53,43,group C,male  ,high school     ,standard,none     
+00292,42,48,42,group D,female,associate       ,standard,none     
+00293,96,93,100,group E,female,associate       ,standard,none     
+00294,55,56,54,group C,female,bachelor        ,reduced ,none     
+00295,70,65,56,group D,male  ,master          ,standard,none     
+00296,51,53,51,group C,male  ,bachelor        ,reduced ,none     
+00297,27,49,50,group B,female,some college    ,reduced ,completed
+00298,60,54,47,group D,male  ,high school     ,standard,none     
+00299,44,56,47,group B,female,some high school,standard,none     
+00300,63,73,74,group C,female,high school     ,standard,completed
+00301,72,77,75,group C,female,associate       ,standard,none     
+00302,82,77,80,group D,female,some high school,standard,none     
+00303,82,85,99,group B,female,bachelor        ,standard,completed
+00304,70,82,83,group A,female,some high school,standard,none     
+00305,76,61,61,group E,male  ,high school     ,reduced ,completed
+00306,62,68,74,group C,female,bachelor        ,reduced ,completed
+00307,58,62,54,group B,female,high school     ,reduced ,none     
+00308,61,73,70,group A,female,high school     ,standard,none     
+00309,88,82,82,group B,male  ,bachelor        ,standard,completed
+00310,61,64,54,group C,female,some college    ,standard,none     
+00311,88,77,78,group D,male  ,high school     ,standard,completed
+00312,57,45,46,group E,male  ,some high school,reduced ,none     
+00313,92,95,93,group D,female,high school     ,standard,completed
+00314,80,79,73,group C,male  ,master          ,standard,none     
+00315,62,54,52,group A,male  ,some high school,standard,none     
+00316,71,74,80,group D,female,some college    ,standard,none     
+00317,54,58,63,group D,female,high school     ,reduced ,none     
+00318,43,43,40,group A,male  ,some college    ,reduced ,none     
+00319,51,57,60,group C,female,some college    ,standard,none     
+00320,57,46,44,group C,male  ,some high school,standard,none     
+00321,62,71,62,group C,male  ,some high school,standard,completed
+00322,48,59,55,group B,female,some high school,standard,none     
+00323,61,69,62,group C,male  ,associate       ,reduced ,completed
+00324,94,91,98,group D,female,some high school,standard,completed
+00325,44,45,41,group B,male  ,some college    ,reduced ,none     
+00326,56,71,70,group C,female,associate       ,standard,none     
+00327,68,69,55,group D,male  ,associate       ,reduced ,none     
+00328,61,53,48,group D,male  ,some college    ,reduced ,none     
+00329,49,68,67,group C,female,high school     ,standard,completed
+00330,71,71,76,group D,female,some college    ,standard,none     
+00331,78,86,80,group E,female,some high school,standard,none     
+00332,74,70,63,group D,male  ,associate       ,standard,none     
+00333,66,63,63,group C,male  ,high school     ,standard,none     
+00334,61,56,53,group C,male  ,some high school,reduced ,none     
+00335,59,45,44,group D,male  ,some college    ,reduced ,none     
+00336,49,65,62,group B,female,high school     ,reduced ,none     
+00337,61,68,67,group B,female,associate       ,reduced ,none     
+00338,54,57,63,group C,female,bachelor        ,reduced ,completed
+00339,45,61,63,group B,female,high school     ,reduced ,completed
+00340,81,96,99,group D,female,bachelor        ,reduced ,completed
+00341,71,87,87,group B,female,associate       ,standard,none     
+00342,67,60,61,group B,male  ,associate       ,standard,none     
+00343,56,53,58,group D,female,some college    ,standard,none     
+00344,60,66,64,group B,female,high school     ,reduced ,completed
+00345,95,86,83,group D,male  ,associate       ,standard,none     
+00346,60,59,53,group B,male  ,some college    ,standard,none     
+00347,60,55,52,group B,male  ,some college    ,standard,none     
+00348,82,68,69,group B,male  ,bachelor        ,standard,none     
+00349,78,68,70,group B,male  ,some college    ,reduced ,none     
+00350,57,67,64,group C,female,associate       ,standard,none     
+00351,72,77,67,group A,male  ,some college    ,standard,none     
+00352,37,51,43,group B,female,some high school,standard,none     
+00353,72,76,64,group C,male  ,some college    ,standard,none     
+00354,52,57,49,group B,male  ,some college    ,reduced ,none     
+00355,80,72,72,group A,male  ,high school     ,standard,completed
+00356,89,78,76,group D,male  ,associate       ,standard,none     
+00357,84,88,87,group C,female,some college    ,standard,completed
+00358,67,73,76,group B,female,some high school,standard,none     
+00359,59,75,79,group B,female,master          ,standard,completed
+00360,95,85,80,group C,male  ,some college    ,standard,completed
+00361,71,68,68,group B,female,master          ,standard,none     
+00362,72,76,74,group C,female,high school     ,standard,none     
+00363,83,80,82,group E,male  ,high school     ,standard,completed
+00364,94,86,82,group E,male  ,some high school,standard,none     
+00365,58,57,58,group B,male  ,some college    ,reduced ,completed
+00366,75,62,65,group C,male  ,bachelor        ,standard,completed
+00367,65,83,77,group B,female,some high school,reduced ,none     
+00368,68,78,83,group C,female,bachelor        ,reduced ,completed
+00369,34,44,43,group C,female,some high school,reduced ,none     
+00370,97,96,89,group E,male  ,some college    ,standard,none     
+00371,44,47,55,group D,female,high school     ,standard,none     
+00372,60,57,60,group D,male  ,some high school,standard,completed
+00373,66,81,75,group C,female,high school     ,reduced ,completed
+00374,96,94,93,group E,male  ,high school     ,standard,none     
+00375,39,60,52,group B,female,high school     ,reduced ,none     
+00376,56,57,62,group C,male  ,some college    ,reduced ,none     
+00377,31,27,19,group C,male  ,high school     ,standard,none     
+00378,74,79,84,group C,female,bachelor        ,standard,completed
+00379,100,100,100,group D,male  ,bachelor        ,standard,completed
+00380,68,75,73,group A,female,high school     ,standard,completed
+00381,79,89,96,group C,female,associate       ,reduced ,completed
+00382,62,69,60,group E,male  ,bachelor        ,reduced ,none     
+00383,72,85,81,group A,female,associate       ,standard,none     
+00384,66,78,75,group C,female,some college    ,standard,none     
+00385,64,66,69,group C,male  ,high school     ,standard,completed
+00386,62,64,64,group C,female,some high school,standard,none     
+00387,68,82,86,group E,female,bachelor        ,reduced ,completed
+00388,70,75,74,group C,male  ,some college    ,reduced ,completed
+00389,63,61,64,group E,female,bachelor        ,reduced ,none     
+00390,91,100,100,group D,female,high school     ,standard,completed
+00391,58,62,63,group D,female,some college    ,standard,none     
+00392,75,66,59,group E,male  ,some college    ,standard,none     
+00393,44,55,61,group C,female,associate       ,reduced ,none     
+00394,68,64,64,group C,female,some college    ,reduced ,none     
+00395,65,61,57,group C,male  ,bachelor        ,reduced ,none     
+00396,66,71,87,group D,female,some college    ,reduced ,completed
+00397,73,69,70,group C,male  ,bachelor        ,reduced ,none     
+00398,67,76,76,group B,female,associate       ,reduced ,none     
+00399,66,73,69,group C,female,associate       ,reduced ,none     
+00400,81,78,68,group E,male  ,some college    ,standard,none     
+00401,77,62,57,group E,male  ,some high school,standard,none     
+00402,43,48,53,group D,female,some college    ,reduced ,none     
+00403,58,70,72,group C,female,bachelor        ,standard,none     
+00404,65,77,70,group C,male  ,some college    ,reduced ,none     
+00405,92,89,83,group C,male  ,high school     ,standard,none     
+00406,56,48,54,group D,male  ,some high school,standard,completed
+00407,65,73,77,group D,female,master          ,standard,none     
+00408,72,67,59,group D,male  ,associate       ,standard,none     
+00409,100,84,87,group D,male  ,some high school,standard,completed
+00410,69,81,70,group C,female,high school     ,standard,none     
+00411,70,66,68,group D,male  ,some college    ,standard,completed
+00412,90,80,78,group E,male  ,high school     ,standard,none     
+00413,90,79,75,group C,male  ,high school     ,standard,none     
+00414,63,78,74,group D,female,high school     ,standard,completed
+00415,40,51,51,group D,female,associate       ,standard,none     
+00416,64,72,66,group A,female,high school     ,standard,none     
+00417,90,76,71,group C,male  ,some college    ,standard,none     
+00418,76,74,73,group C,male  ,some college    ,standard,none     
+00419,42,48,33,group B,male  ,some college    ,reduced ,none     
+00420,45,68,71,group D,female,bachelor        ,reduced ,completed
+00421,76,65,70,group D,male  ,bachelor        ,standard,none     
+00422,63,69,68,group C,male  ,some high school,standard,completed
+00423,84,77,79,group E,male  ,some college    ,standard,completed
+00424,62,75,73,group A,female,bachelor        ,reduced ,none     
+00425,69,76,82,group C,female,associate       ,reduced ,completed
+00426,77,79,76,group C,male  ,some high school,standard,none     
+00427,63,65,58,group D,male  ,bachelor        ,standard,none     
+00428,72,67,67,group C,male  ,high school     ,standard,completed
+00429,75,68,68,group E,male  ,associate       ,standard,none     
+00430,61,66,71,group C,female,bachelor        ,standard,none     
+00431,79,97,85,group A,female,high school     ,standard,none     
+00432,53,66,64,group D,female,high school     ,standard,none     
+00433,77,68,66,group B,male  ,some college    ,standard,completed
+00434,44,49,43,group A,male  ,high school     ,reduced ,none     
+00435,44,50,37,group B,male  ,high school     ,standard,none     
+00436,71,84,88,group C,female,associate       ,standard,completed
+00437,60,65,67,group B,female,associate       ,standard,completed
+00438,49,39,33,group B,male  ,some high school,standard,none     
+00439,82,95,93,group A,female,high school     ,standard,completed
+00440,68,70,62,group E,male  ,master          ,reduced ,none     
+00441,58,63,65,group D,female,some high school,reduced ,none     
+00442,65,68,67,group B,female,high school     ,standard,none     
+00443,50,42,35,group C,male  ,associate       ,standard,none     
+00444,73,72,79,group D,female,associate       ,reduced ,completed
+00445,40,50,47,group D,male  ,some high school,reduced ,completed
+00446,60,67,74,group C,female,some high school,reduced ,completed
+00447,57,58,51,group C,male  ,associate       ,reduced ,none     
+00448,57,60,57,group C,male  ,some college    ,reduced ,none     
+00449,83,86,89,group B,female,some high school,standard,none     
+00450,68,56,57,group C,male  ,master          ,standard,none     
+00451,74,76,73,group D,male  ,bachelor        ,standard,none     
+00452,76,68,70,group B,male  ,master          ,reduced ,none     
+00453,38,45,44,group C,female,some high school,reduced ,none     
+00454,63,64,59,group C,female,high school     ,standard,none     
+00455,87,79,72,group E,male  ,bachelor        ,reduced ,none     
+00456,81,84,78,group E,male  ,high school     ,reduced ,none     
+00457,84,90,90,group D,female,associate       ,standard,none     
+00458,68,69,71,group E,female,high school     ,reduced ,completed
+00459,57,70,71,group A,female,some high school,reduced ,none     
+00460,75,82,81,group C,female,master          ,standard,none     
+00461,39,50,41,group C,female,high school     ,reduced ,none     
+00462,54,77,78,group D,female,some high school,standard,completed
+00463,71,73,69,group D,male  ,associate       ,standard,none     
+00464,58,64,55,group A,male  ,some college    ,standard,none     
+00465,61,70,73,group D,female,associate       ,standard,none     
+00466,82,85,94,group D,female,associate       ,standard,completed
+00467,73,87,83,group D,female,associate       ,standard,completed
+00468,52,66,63,group D,female,some high school,standard,none     
+00469,33,47,32,group B,male  ,some high school,reduced ,none     
+00470,67,68,69,group D,male  ,associate       ,standard,completed
+00471,61,80,82,group B,female,some high school,reduced ,none     
+00472,86,89,96,group E,female,associate       ,standard,completed
+00473,98,96,100,group D,male  ,bachelor        ,standard,completed
+00474,72,56,63,group C,male  ,some college    ,standard,completed
+00475,60,59,52,group B,male  ,associate       ,reduced ,none     
+00476,66,68,62,group C,male  ,some college    ,standard,none     
+00477,86,89,87,group C,male  ,some high school,standard,completed
+00478,45,52,51,group B,female,high school     ,standard,none     
+00479,75,86,84,group C,female,some high school,standard,none     
+00480,51,69,65,group A,female,associate       ,standard,none     
+00481,21,30,26,group C,female,high school     ,standard,none     
+00482,54,53,47,group D,male  ,high school     ,reduced ,none     
+00483,83,78,74,group D,male  ,high school     ,standard,none     
+00484,74,79,65,group B,male  ,associate       ,reduced ,none     
+00485,73,67,73,group C,male  ,bachelor        ,standard,none     
+00486,69,70,75,group D,male  ,some high school,reduced ,completed
+00487,81,93,94,group C,female,some college    ,standard,none     
+00488,95,90,89,group E,male  ,bachelor        ,standard,completed
+00489,97,88,81,group E,male  ,some college    ,standard,completed
+00490,62,68,75,group C,female,master          ,standard,completed
+00491,63,57,59,group C,male  ,some high school,standard,none     
+00492,50,72,70,group D,female,high school     ,standard,completed
+00493,25,33,32,group D,female,some high school,standard,none     
+00494,73,67,64,group D,male  ,some high school,standard,none     
+00495,57,58,54,group D,male  ,associate       ,reduced ,completed
+00496,64,62,61,group C,male  ,high school     ,standard,none     
+00497,86,89,87,group E,female,high school     ,standard,none     
+00498,62,65,69,group D,female,associate       ,reduced ,none     
+00499,97,94,91,group D,male  ,associate       ,standard,none     
+00500,62,64,63,group A,female,some college    ,standard,none     
+00501,91,97,91,group E,female,some high school,standard,none     
+00502,60,57,61,group C,male  ,associate       ,reduced ,completed
+00503,59,55,46,group E,male  ,high school     ,reduced ,none     
+00504,75,87,90,group D,female,associate       ,standard,none     
+00505,79,87,89,group C,female,master          ,standard,completed
+00506,79,92,97,group C,female,associate       ,reduced ,completed
+00507,34,49,47,group A,female,high school     ,reduced ,none     
+00508,49,49,43,group D,male  ,some high school,reduced ,none     
+00509,47,58,56,group B,female,some college    ,standard,completed
+00510,78,73,65,group E,male  ,associate       ,standard,none     
+00511,46,53,54,group D,male  ,some high school,reduced ,completed
+00512,72,80,75,group C,male  ,associate       ,reduced ,none     
+00513,45,61,57,group D,female,associate       ,reduced ,none     
+00514,28,32,28,group C,female,associate       ,reduced ,none     
+00515,83,92,93,group D,female,some high school,standard,none     
+00516,86,89,89,group E,female,some college    ,standard,completed
+00517,64,75,81,group D,female,some high school,reduced ,completed
+00518,65,55,51,group B,male  ,high school     ,reduced ,none     
+00519,69,85,84,group B,female,some college    ,reduced ,completed
+00520,66,62,66,group B,female,high school     ,standard,completed
+00521,41,60,55,group E,female,some college    ,reduced ,none     
+00522,67,71,70,group D,male  ,master          ,reduced ,completed
+00523,57,65,56,group C,male  ,bachelor        ,reduced ,completed
+00524,42,50,61,group C,female,associate       ,reduced ,completed
+00525,75,81,87,group D,female,high school     ,reduced ,none     
+00526,77,90,97,group C,female,associate       ,standard,completed
+00527,65,65,62,group B,male  ,master          ,reduced ,none     
+00528,87,90,90,group E,female,some high school,standard,completed
+00529,72,76,78,group D,female,high school     ,reduced ,completed
+00530,71,83,79,group E,female,high school     ,standard,none     
+00531,60,80,76,group C,female,some college    ,reduced ,completed
+00532,67,75,84,group D,female,high school     ,reduced ,completed
+00533,54,73,64,group C,female,high school     ,standard,none     
+00534,48,59,55,group B,male  ,bachelor        ,reduced ,completed
+00535,67,63,67,group C,male  ,high school     ,standard,completed
+00536,58,56,53,group B,male  ,some high school,reduced ,completed
+00537,80,83,86,group C,female,high school     ,standard,completed
+00538,84,100,96,group B,female,some college    ,standard,none     
+00539,48,38,46,group C,male  ,some college    ,standard,completed
+00540,55,67,68,group B,female,some college    ,reduced ,completed
+00541,69,84,81,group C,female,some high school,standard,completed
+00542,74,72,62,group C,male  ,high school     ,standard,none     
+00543,62,68,65,group D,female,some high school,standard,none     
+00544,76,75,77,group D,male  ,high school     ,standard,completed
+00545,84,81,72,group B,male  ,bachelor        ,standard,none     
+00546,93,86,76,group E,male  ,high school     ,standard,none     
+00547,56,44,44,group E,male  ,associate       ,standard,none     
+00548,52,65,60,group B,female,some high school,standard,none     
+00549,81,90,93,group C,female,some college    ,standard,completed
+00550,84,79,75,group E,male  ,high school     ,standard,completed
+00551,55,50,47,group D,male  ,some high school,standard,none     
+00552,54,53,51,group C,male  ,high school     ,reduced ,completed
+00553,46,41,40,group B,male  ,some high school,reduced ,none     
+00554,48,46,50,group D,male  ,high school     ,reduced ,none     
+00555,79,65,67,group C,male  ,some high school,standard,none     
+00556,66,66,75,group E,female,high school     ,reduced ,completed
+00557,56,60,63,group A,male  ,associate       ,reduced ,completed
+00558,60,74,68,group E,female,associate       ,reduced ,none     
+00559,75,91,81,group B,female,associate       ,standard,none     
+00560,79,65,65,group A,male  ,some high school,standard,completed
+00561,41,57,55,group C,male  ,high school     ,reduced ,completed
+00562,35,40,45,group C,female,associate       ,reduced ,none     
+00563,54,56,58,group A,female,some college    ,reduced ,none     
+00564,67,65,62,group C,male  ,some high school,standard,none     
+00565,85,98,99,group D,female,high school     ,standard,completed
+00566,92,100,99,group E,female,associate       ,standard,none     
+00567,99,100,100,group D,male  ,associate       ,standard,completed
+00568,52,59,58,group C,female,some high school,reduced ,completed
+00569,73,66,68,group C,male  ,associate       ,reduced ,none     
+00570,62,75,79,group D,female,some high school,reduced ,completed
+00571,75,71,68,group E,male  ,some high school,standard,none     
+00572,90,94,93,group B,female,associate       ,standard,none     
+00573,54,49,48,group D,male  ,high school     ,reduced ,none     
+00574,81,74,74,group D,male  ,associate       ,standard,none     
+00575,74,66,64,group C,male  ,some high school,reduced ,none     
+00576,68,73,72,group B,male  ,associate       ,reduced ,completed
+00577,74,74,70,group D,male  ,some college    ,standard,none     
+00578,51,57,44,group C,male  ,high school     ,reduced ,none     
+00579,68,77,75,group C,female,some high school,standard,none     
+00580,69,59,57,group B,male  ,some college    ,standard,none     
+00581,100,89,86,group E,male  ,some college    ,standard,completed
+00582,53,59,59,group C,female,some college    ,standard,none     
+00583,72,70,70,group C,male  ,bachelor        ,reduced ,completed
+00584,50,40,38,group B,male  ,bachelor        ,reduced ,none     
+00585,61,69,69,group A,female,high school     ,standard,none     
+00586,65,69,56,group C,male  ,high school     ,standard,none     
+00587,15,39,40,group D,female,high school     ,reduced ,none     
+00588,64,56,52,group C,male  ,some high school,reduced ,none     
+00589,77,70,60,group C,male  ,high school     ,standard,none     
+00590,61,63,70,group D,female,some college    ,standard,completed
+00591,49,66,60,group B,female,high school     ,reduced ,completed
+00592,70,49,53,group C,male  ,bachelor        ,standard,none     
+00593,60,56,57,group A,male  ,associate       ,standard,none     
+00594,84,97,96,group D,female,some college    ,standard,none     
+00595,51,56,50,group D,male  ,high school     ,reduced ,none     
+00596,74,61,68,group C,male  ,bachelor        ,standard,none     
+00597,64,77,79,group B,female,bachelor        ,standard,completed
+00598,67,74,81,group C,female,some college    ,standard,completed
+00599,76,61,62,group C,male  ,associate       ,standard,none     
+00600,70,66,72,group D,male  ,some high school,standard,completed
+00601,85,92,84,group C,female,some college    ,standard,none     
+00602,53,55,57,group D,female,some high school,standard,none     
+00603,84,71,66,group C,male  ,high school     ,standard,none     
+00604,55,49,44,group B,male  ,some high school,standard,none     
+00605,50,62,63,group C,female,high school     ,standard,none     
+00606,79,77,71,group C,male  ,some high school,reduced ,none     
+00607,81,77,71,group C,male  ,associate       ,standard,none     
+00608,89,75,80,group D,male  ,associate       ,standard,completed
+00609,59,68,66,group C,male  ,associate       ,reduced ,completed
+00610,82,79,81,group D,male  ,some college    ,standard,completed
+00611,86,84,82,group D,male  ,associate       ,standard,none     
+00612,41,58,60,group D,female,some college    ,reduced ,none     
+00613,64,67,72,group D,female,master          ,standard,completed
+00614,68,71,64,group A,male  ,associate       ,reduced ,completed
+00615,74,67,61,group E,male  ,high school     ,reduced ,completed
+00616,44,44,53,group C,female,some college    ,reduced ,completed
+00617,34,66,59,group C,female,high school     ,reduced ,completed
+00618,45,50,48,group B,male  ,some high school,standard,completed
+00619,83,86,90,group C,female,master          ,standard,completed
+00620,55,65,57,group C,male  ,some college    ,standard,none     
+00621,61,56,52,group E,male  ,high school     ,reduced ,none     
+00622,81,89,88,group B,female,high school     ,standard,completed
+00623,45,52,45,group B,male  ,associate       ,reduced ,none     
+00624,71,63,61,group B,male  ,high school     ,standard,none     
+00625,62,67,68,group C,male  ,bachelor        ,standard,completed
+00626,78,83,76,group E,female,some college    ,standard,completed
+00627,76,74,71,group D,male  ,some college    ,standard,none     
+00628,73,68,81,group A,female,associate       ,standard,completed
+00629,82,91,85,group C,female,associate       ,standard,none     
+00630,69,58,60,group D,male  ,some college    ,standard,completed
+00631,72,71,65,group D,male  ,bachelor        ,reduced ,none     
+00632,72,73,72,group B,female,high school     ,standard,completed
+00633,57,59,62,group B,male  ,associate       ,reduced ,none     
+00634,83,71,69,group A,male  ,high school     ,standard,completed
+00635,68,76,72,group C,male  ,some high school,standard,none     
+00636,62,74,71,group C,female,some high school,reduced ,completed
+00637,99,97,95,group D,male  ,associate       ,standard,none     
+00638,88,87,85,group B,male  ,high school     ,standard,completed
+00639,56,68,66,group C,female,high school     ,standard,none     
+00640,68,70,76,group B,female,associate       ,standard,none     
+00641,75,69,67,group C,male  ,high school     ,standard,completed
+00642,45,46,47,group C,female,some college    ,standard,none     
+00643,72,68,62,group C,male  ,high school     ,reduced ,none     
+00644,99,98,93,group E,male  ,some college    ,standard,completed
+00645,76,72,65,group C,male  ,some college    ,reduced ,none     
+00646,64,72,79,group B,female,some high school,reduced ,completed
+00647,56,61,65,group B,female,some college    ,standard,none     
+00648,74,78,81,group E,female,some college    ,reduced ,none     
+00649,97,91,96,group D,male  ,bachelor        ,standard,completed
+00650,83,89,88,group B,female,some college    ,standard,none     
+00651,55,64,63,group B,female,bachelor        ,standard,completed
+00652,77,90,93,group B,female,some college    ,standard,completed
+00653,78,80,79,group D,female,bachelor        ,standard,none     
+00654,89,95,99,group E,female,some high school,standard,completed
+00655,78,72,66,group A,male  ,high school     ,standard,none     
+00656,33,42,41,group C,male  ,some college    ,reduced ,none     
+00657,66,72,74,group D,female,associate       ,standard,none     
+00658,87,87,79,group E,male  ,some college    ,standard,completed
+00659,50,48,52,group B,female,some college    ,standard,none     
+00660,79,86,84,group A,female,high school     ,standard,none     
+00661,70,70,66,group B,male  ,bachelor        ,reduced ,none     
+00662,47,61,64,group B,female,some college    ,reduced ,completed
+00663,80,84,81,group C,female,high school     ,standard,none     
+00664,91,76,78,group E,male  ,some college    ,standard,completed
+00665,78,86,88,group D,female,high school     ,reduced ,completed
+00666,56,61,62,group D,male  ,some college    ,reduced ,completed
+00667,54,56,47,group C,male  ,some high school,standard,none     
+00668,79,65,69,group A,male  ,associate       ,standard,completed
+00669,93,87,84,group E,male  ,associate       ,standard,completed
+00670,74,78,78,group D,male  ,some high school,standard,completed
+00671,83,90,95,group E,female,associate       ,reduced ,none     
+00672,90,78,78,group C,male  ,high school     ,standard,none     
+00673,62,78,71,group C,female,some college    ,reduced ,completed
+00674,58,61,59,group D,female,bachelor        ,standard,none     
+00675,73,73,63,group E,male  ,some college    ,reduced ,none     
+00676,63,59,51,group C,male  ,some high school,standard,none     
+00677,89,83,81,group D,male  ,associate       ,standard,completed
+00678,75,66,72,group D,male  ,some college    ,standard,none     
+00679,51,54,51,group C,male  ,some college    ,reduced ,none     
+00680,58,80,76,group C,female,some high school,reduced ,completed
+00681,92,88,94,group C,female,bachelor        ,standard,completed
+00682,39,65,64,group D,female,associate       ,reduced ,none     
+00683,84,90,89,group B,female,associate       ,standard,none     
+00684,71,66,70,group C,male  ,some college    ,standard,completed
+00685,85,86,88,group E,female,high school     ,standard,none     
+00686,59,74,68,group B,female,high school     ,reduced ,none     
+00687,71,67,64,group D,male  ,bachelor        ,standard,none     
+00688,74,60,59,group E,male  ,some high school,standard,none     
+00689,62,58,56,group D,male  ,some college    ,reduced ,none     
+00690,83,86,91,group E,female,associate       ,reduced ,completed
+00691,74,63,65,group D,male  ,some college    ,standard,none     
+00692,64,62,55,group B,male  ,some high school,reduced ,completed
+00693,79,76,69,group C,male  ,some college    ,standard,none     
+00694,24,48,46,group C,female,high school     ,reduced ,none     
+00695,66,60,64,group E,male  ,associate       ,reduced ,completed
+00696,69,86,87,group D,female,some high school,standard,completed
+00697,65,58,57,group C,male  ,some high school,standard,none     
+00698,66,63,60,group E,male  ,some high school,standard,none     
+00699,54,56,56,group E,female,high school     ,standard,none     
+00700,59,48,48,group D,male  ,some high school,standard,none     
+00701,60,67,61,group C,male  ,some college    ,reduced ,none     
+00702,68,76,79,group D,female,some college    ,standard,none     
+00703,61,69,66,group A,female,high school     ,standard,none     
+00704,84,88,82,group E,female,some college    ,reduced ,none     
+00705,62,67,70,group B,female,master          ,standard,none     
+00706,70,75,70,group A,female,some high school,standard,none     
+00707,76,81,72,group B,male  ,high school     ,reduced ,completed
+00708,81,92,97,group B,female,associate       ,standard,completed
+00709,54,60,60,group B,male  ,master          ,reduced ,none     
+00710,67,65,59,group D,male  ,high school     ,standard,none     
+00711,56,53,53,group A,male  ,some high school,standard,completed
+00712,63,59,51,group D,male  ,bachelor        ,reduced ,none     
+00713,39,44,36,group C,male  ,associate       ,reduced ,none     
+00714,93,78,77,group C,male  ,master          ,standard,none     
+00715,65,72,76,group E,female,some high school,reduced ,completed
+00716,83,83,70,group A,male  ,associate       ,standard,none     
+00717,75,78,77,group D,male  ,associate       ,reduced ,completed
+00718,71,74,73,group C,male  ,some college    ,reduced ,none     
+00719,46,52,48,group C,female,some college    ,standard,none     
+00720,60,74,72,group D,female,bachelor        ,standard,completed
+00721,55,35,43,group D,male  ,bachelor        ,standard,none     
+00722,79,72,74,group C,male  ,master          ,standard,completed
+00723,62,55,50,group C,male  ,associate       ,reduced ,none     
+00724,55,72,70,group C,female,high school     ,standard,completed
+00725,58,64,56,group B,female,some college    ,standard,none     
+00726,82,76,75,group D,male  ,associate       ,reduced ,none     
+00727,30,47,46,group B,female,high school     ,reduced ,none     
+00728,80,79,74,group C,male  ,some college    ,standard,none     
+00729,98,88,85,group D,male  ,some college    ,standard,none     
+00730,83,91,92,group A,female,some college    ,standard,none     
+00731,81,84,86,group B,female,bachelor        ,standard,none     
+00732,54,68,69,group C,female,high school     ,reduced ,completed
+00733,82,95,100,group D,female,associate       ,standard,completed
+00734,62,70,64,group E,female,high school     ,reduced ,none     
+00735,70,77,86,group E,female,high school     ,reduced ,completed
+00736,77,85,85,group C,female,some college    ,standard,none     
+00737,55,48,46,group C,male  ,some college    ,standard,none     
+00738,78,76,80,group D,male  ,high school     ,standard,completed
+00739,69,77,77,group A,male  ,associate       ,reduced ,completed
+00740,58,62,64,group B,female,some college    ,reduced ,completed
+00741,39,52,58,group D,female,high school     ,reduced ,completed
+00742,80,80,79,group D,male  ,some high school,standard,none     
+00743,76,70,67,group B,male  ,some college    ,standard,none     
+00744,52,68,66,group A,female,high school     ,standard,none     
+00745,88,78,84,group B,male  ,master          ,standard,none     
+00746,82,69,76,group C,male  ,master          ,reduced ,none     
+00747,62,65,61,group C,male  ,some college    ,reduced ,none     
+00748,90,96,98,group E,female,some high school,standard,completed
+00749,41,49,51,group A,female,associate       ,reduced ,none     
+00750,59,69,63,group C,male  ,some college    ,reduced ,completed
+00751,61,69,73,group B,female,some college    ,standard,none     
+00752,68,56,57,group C,male  ,bachelor        ,standard,none     
+00753,60,75,72,group C,female,associate       ,standard,none     
+00754,37,48,46,group B,female,some high school,reduced ,completed
+00755,67,67,62,group E,male  ,some college    ,reduced ,none     
+00756,73,76,74,group A,female,associate       ,standard,none     
+00757,74,75,78,group A,male  ,some college    ,reduced ,completed
+00758,67,89,89,group C,female,some college    ,reduced ,completed
+00759,37,51,51,group B,female,some college    ,reduced ,none     
+00760,61,73,74,group A,female,high school     ,standard,none     
+00761,64,81,87,group C,female,some college    ,reduced ,completed
+00762,74,81,82,group D,female,some college    ,standard,none     
+00763,34,37,27,group C,male  ,high school     ,reduced ,none     
+00764,54,62,62,group D,female,high school     ,standard,none     
+00765,65,76,70,group B,female,some college    ,standard,none     
+00766,81,86,78,group D,male  ,some college    ,standard,none     
+00767,88,89,87,group E,male  ,master          ,standard,completed
+00768,82,70,67,group D,male  ,some high school,standard,none     
+00769,70,75,78,group C,female,some high school,standard,none     
+00770,60,51,55,group C,male  ,some high school,standard,completed
+00771,70,81,75,group C,female,master          ,standard,none     
+00772,67,72,71,group C,female,some high school,standard,none     
+00773,98,100,99,group E,female,bachelor        ,standard,completed
+00774,35,56,54,group D,male  ,some high school,reduced ,completed
+00775,69,82,78,group C,female,associate       ,standard,none     
+00776,38,38,41,group D,male  ,high school     ,reduced ,completed
+00777,70,74,65,group A,male  ,high school     ,reduced ,none     
+00778,42,59,59,group E,female,some high school,reduced ,completed
+00779,47,58,54,group A,female,some high school,reduced ,none     
+00780,49,57,61,group B,female,bachelor        ,reduced ,completed
+00781,90,93,91,group E,male  ,some college    ,standard,completed
+00782,49,54,50,group D,male  ,associate       ,reduced ,none     
+00783,83,86,87,group D,male  ,master          ,reduced ,none     
+00784,82,86,78,group C,male  ,associate       ,reduced ,none     
+00785,72,69,70,group C,female,associate       ,standard,none     
+00786,67,67,67,group D,female,associate       ,standard,none     
+00787,92,89,83,group B,male  ,master          ,standard,none     
+00788,59,64,64,group C,female,master          ,standard,none     
+00789,64,63,64,group D,male  ,bachelor        ,standard,none     
+00790,88,90,90,group C,female,some high school,standard,none     
+00791,92,77,84,group D,male  ,some college    ,standard,none     
+00792,82,73,74,group C,male  ,associate       ,reduced ,none     
+00793,59,72,70,group C,female,some college    ,standard,none     
+00794,45,43,47,group C,male  ,high school     ,reduced ,none     
+00795,56,67,62,group C,male  ,high school     ,reduced ,none     
+00796,52,48,49,group B,male  ,high school     ,standard,none     
+00797,86,72,76,group D,male  ,associate       ,standard,none     
+00798,81,93,94,group D,female,some college    ,standard,completed
+00799,61,64,63,group B,female,associate       ,reduced ,none     
+00800,51,52,46,group B,male  ,high school     ,standard,none     
+00801,69,85,83,group D,female,bachelor        ,reduced ,none     
+00802,81,71,62,group B,male  ,high school     ,standard,none     
+00803,73,85,83,group D,female,bachelor        ,reduced ,none     
+00804,92,87,92,group E,female,bachelor        ,standard,completed
+00805,71,63,53,group E,male  ,associate       ,standard,none     
+00806,61,57,55,group C,female,high school     ,standard,none     
+00807,80,76,74,group C,male  ,associate       ,standard,none     
+00808,38,38,30,group B,male  ,some high school,reduced ,none     
+00809,72,62,62,group B,male  ,some high school,standard,completed
+00810,96,98,100,group E,female,some college    ,standard,completed
+00811,64,66,72,group B,female,associate       ,standard,completed
+00812,44,65,59,group B,female,some high school,standard,none     
+00813,81,99,96,group D,female,some college    ,standard,completed
+00814,85,75,72,group B,male  ,high school     ,standard,completed
+00815,82,76,71,group E,male  ,associate       ,standard,none     
+00816,72,67,64,group B,male  ,associate       ,standard,none     
+00817,43,57,59,group C,female,master          ,reduced ,none     
+00818,58,69,63,group B,female,some college    ,standard,none     
+00819,72,73,75,group E,male  ,some college    ,reduced ,completed
+00820,80,67,72,group D,male  ,some college    ,standard,completed
+00821,81,62,61,group D,male  ,high school     ,standard,none     
+00822,66,60,59,group E,male  ,some high school,reduced ,none     
+00823,74,65,61,group B,male  ,associate       ,standard,none     
+00824,75,70,76,group D,male  ,master          ,reduced ,completed
+00825,68,58,54,group C,male  ,some college    ,standard,none     
+00826,67,63,63,group D,male  ,some high school,reduced ,none     
+00827,58,47,45,group B,male  ,some college    ,standard,none     
+00828,79,56,68,group D,male  ,some college    ,standard,none     
+00829,63,63,63,group C,male  ,some high school,standard,none     
+00830,59,72,72,group B,female,associate       ,reduced ,none     
+00831,47,53,42,group C,male  ,bachelor        ,reduced ,none     
+00832,67,78,70,group D,male  ,some college    ,reduced ,completed
+00833,92,86,88,group A,male  ,some college    ,standard,completed
+00834,44,45,41,group D,male  ,associate       ,standard,none     
+00835,57,54,48,group C,male  ,master          ,reduced ,none     
+00836,83,100,100,group D,female,bachelor        ,standard,completed
+00837,68,76,76,group A,female,master          ,standard,completed
+00838,59,52,45,group B,male  ,associate       ,standard,none     
+00839,36,51,49,group B,female,some high school,reduced ,none     
+00840,56,51,44,group A,male  ,some college    ,standard,completed
+00841,80,94,97,group E,female,high school     ,reduced ,completed
+00842,62,72,67,group C,male  ,some college    ,reduced ,completed
+00843,90,72,79,group D,male  ,some high school,standard,none     
+00844,55,62,58,group A,male  ,associate       ,standard,completed
+00845,44,45,52,group C,female,bachelor        ,reduced ,completed
+00846,72,63,66,group C,male  ,high school     ,standard,completed
+00847,92,94,94,group E,female,high school     ,standard,none     
+00848,73,68,71,group B,male  ,high school     ,reduced ,completed
+00849,75,74,75,group D,female,high school     ,standard,completed
+00850,82,78,78,group E,male  ,associate       ,standard,completed
+00851,84,84,74,group C,male  ,some high school,standard,none     
+00852,81,80,73,group C,male  ,master          ,standard,none     
+00853,82,68,63,group A,male  ,some college    ,standard,none     
+00854,79,92,87,group C,female,master          ,standard,completed
+00855,31,49,42,group C,female,high school     ,standard,none     
+00856,73,62,59,group E,male  ,some high school,standard,none     
+00857,89,93,98,group E,female,some college    ,standard,none     
+00858,100,100,100,group E,male  ,bachelor        ,standard,completed
+00859,47,58,56,group D,female,associate       ,reduced ,completed
+00860,94,75,75,group E,male  ,some high school,standard,none     
+00861,79,77,75,group B,male  ,associate       ,standard,completed
+00862,77,80,74,group C,male  ,high school     ,reduced ,completed
+00863,63,60,53,group D,male  ,some college    ,standard,none     
+00864,56,45,38,group A,male  ,high school     ,standard,none     
+00865,58,67,70,group B,female,associate       ,reduced ,completed
+00866,77,80,85,group C,male  ,some college    ,standard,completed
+00867,82,85,91,group E,female,some college    ,standard,completed
+00868,51,69,64,group B,female,high school     ,reduced ,none     
+00869,92,80,78,group E,male  ,some high school,standard,none     
+00870,87,90,85,group C,female,high school     ,standard,none     
+00871,88,78,86,group E,male  ,associate       ,standard,completed
+00872,77,79,78,group C,female,some college    ,standard,none     
+00873,62,65,65,group E,female,some college    ,standard,none     
+00874,61,56,56,group D,male  ,associate       ,standard,none     
+00875,65,66,66,group C,female,associate       ,reduced ,none     
+00876,84,76,81,group E,male  ,master          ,standard,completed
+00877,30,59,51,group D,female,some high school,reduced ,none     
+00878,63,61,64,group A,male  ,associate       ,reduced ,completed
+00879,79,78,83,group E,female,high school     ,standard,none     
+00880,51,72,63,group C,female,some college    ,standard,none     
+00881,66,70,67,group D,female,some college    ,standard,none     
+00882,63,69,66,group D,female,associate       ,standard,none     
+00883,71,78,81,group D,female,associate       ,reduced ,none     
+00884,69,76,71,group C,female,master          ,standard,none     
+00885,70,81,76,group C,female,some college    ,reduced ,none     
+00886,67,59,59,group D,male  ,some high school,standard,none     
+00887,53,48,49,group C,female,some high school,standard,none     
+00888,50,62,62,group B,female,bachelor        ,reduced ,none     
+00889,59,63,61,group C,female,high school     ,standard,none     
+00890,54,72,68,group C,female,high school     ,reduced ,completed
+00891,81,72,70,group E,male  ,some college    ,standard,none     
+00892,69,58,52,group C,male  ,high school     ,standard,none     
+00893,87,84,76,group E,male  ,high school     ,standard,none     
+00894,88,84,88,group B,female,bachelor        ,standard,none     
+00895,52,53,55,group E,female,bachelor        ,standard,none     
+00896,60,61,57,group C,female,some high school,standard,none     
+00897,77,83,84,group D,female,some high school,standard,completed
+00898,47,49,49,group C,male  ,associate       ,reduced ,completed
+00899,76,65,58,group C,male  ,some college    ,standard,none     
+00900,92,100,100,group B,female,some college    ,standard,completed
+00901,87,87,84,group E,female,some high school,standard,none     
+00902,74,82,81,group D,female,high school     ,standard,none     
+00903,67,60,69,group A,male  ,some high school,standard,completed
+00904,56,47,48,group B,male  ,some college    ,reduced ,none     
+00905,84,92,90,group D,female,associate       ,standard,none     
+00906,73,54,57,group B,male  ,associate       ,standard,none     
+00907,75,65,65,group D,male  ,master          ,reduced ,none     
+00908,70,72,67,group D,male  ,high school     ,standard,completed
+00909,79,72,72,group C,male  ,high school     ,standard,none     
+00910,86,77,80,group C,male  ,bachelor        ,standard,completed
+00911,77,83,91,group B,female,high school     ,standard,completed
+00912,58,67,67,group D,male  ,high school     ,reduced ,completed
+00913,70,66,68,group C,male  ,some college    ,reduced ,completed
+00914,69,67,78,group D,female,master          ,standard,none     
+00915,94,97,95,group D,male  ,some college    ,standard,completed
+00916,76,82,81,group E,female,some college    ,reduced ,none     
+00917,71,72,69,group C,female,high school     ,standard,none     
+00918,76,72,73,group C,male  ,associate       ,standard,none     
+00919,85,78,81,group D,male  ,bachelor        ,reduced ,none     
+00920,94,84,80,group C,male  ,some high school,standard,none     
+00921,91,82,74,group E,male  ,master          ,standard,none     
+00922,100,100,98,group D,male  ,associate       ,standard,completed
+00923,65,66,61,group B,male  ,high school     ,standard,none     
+00924,68,79,78,group D,female,bachelor        ,reduced ,none     
+00925,59,60,56,group C,male  ,high school     ,reduced ,none     
+00926,73,87,89,group B,female,bachelor        ,standard,none     
+00927,76,83,78,group B,male  ,some college    ,reduced ,completed
+00928,86,92,83,group C,female,some high school,standard,none     
+00929,75,74,80,group C,female,associate       ,standard,completed
+00930,68,53,53,group D,male  ,some high school,standard,none     
+00931,68,73,71,group D,female,high school     ,reduced ,none     
+00932,59,62,52,group D,male  ,some college    ,standard,none     
+00933,84,80,77,group B,male  ,bachelor        ,standard,none     
+00934,67,58,58,group D,male  ,some college    ,reduced ,none     
+00935,59,64,60,group C,male  ,associate       ,reduced ,none     
+00936,58,66,67,group C,male  ,bachelor        ,reduced ,none     
+00937,72,62,60,group D,male  ,associate       ,standard,none     
+00938,61,65,59,group A,female,associate       ,standard,none     
+00939,55,70,60,group B,female,some high school,reduced ,none     
+00940,41,51,53,group D,female,bachelor        ,standard,none     
+00941,36,45,44,group D,female,some college    ,reduced ,none     
+00942,84,75,75,group E,male  ,associate       ,standard,completed
+00943,57,45,42,group E,male  ,associate       ,reduced ,none     
+00944,81,96,93,group C,female,associate       ,standard,none     
+00945,59,60,50,group A,male  ,some high school,standard,none     
+00946,66,56,56,group D,male  ,some college    ,reduced ,none     
+00947,65,62,63,group C,male  ,some college    ,reduced ,completed
+00948,65,85,80,group C,female,associate       ,standard,none     
+00949,53,77,75,group A,female,some high school,reduced ,completed
+00950,79,69,70,group B,male  ,some high school,standard,none     
+00951,89,86,92,group C,female,associate       ,standard,completed
+00952,85,91,88,group E,female,high school     ,reduced ,none     
+00953,79,93,81,group C,female,some college    ,standard,none     
+00954,83,96,96,group B,female,associate       ,standard,completed
+00955,62,71,61,group E,female,some high school,reduced ,none     
+00956,64,68,60,group E,female,some college    ,standard,none     
+00957,66,65,76,group E,female,bachelor        ,standard,none     
+00958,36,52,51,group B,female,some high school,reduced ,none     
+00959,74,77,72,group C,female,some high school,standard,none     
+00960,85,96,95,group B,female,bachelor        ,standard,completed
+00961,44,69,68,group C,female,high school     ,standard,completed
+00962,68,78,77,group E,female,some college    ,standard,completed
+00963,59,66,71,group C,female,some college    ,standard,completed
+00964,64,57,52,group B,male  ,high school     ,standard,none     
+00965,62,74,74,group C,female,some college    ,reduced ,none     
+00966,45,53,45,group C,male  ,master          ,reduced ,none     
+00967,85,81,83,group D,male  ,high school     ,standard,none     
+00968,45,48,46,group C,male  ,some high school,standard,none     
+00969,81,66,58,group B,male  ,associate       ,standard,none     
+00970,65,70,57,group C,male  ,high school     ,standard,none     
+00971,48,60,55,group C,female,high school     ,reduced ,none     
+00972,59,66,69,group C,female,high school     ,standard,none     
+00973,80,88,90,group C,female,some college    ,standard,completed
+00974,66,80,75,group A,female,bachelor        ,standard,completed
+00975,80,93,99,group B,female,bachelor        ,standard,completed
+00976,47,54,48,group E,male  ,some high school,reduced ,none     
+00977,74,90,83,group B,female,high school     ,standard,none     
+00978,55,59,49,group B,male  ,bachelor        ,reduced ,none     
+00979,100,93,89,group D,male  ,associate       ,standard,none     
+00980,83,84,78,group C,male  ,some high school,standard,none     
+00981,76,74,67,group C,male  ,associate       ,standard,none     
+00982,87,83,80,group E,male  ,some high school,standard,completed
+00983,28,27,23,group C,male  ,some high school,standard,none     
+00984,76,78,79,group D,male  ,some high school,standard,completed
+00985,86,87,90,group E,female,bachelor        ,standard,none     
+00986,65,64,73,group A,female,bachelor        ,reduced ,none     
+00987,88,72,78,group D,male  ,master          ,standard,none     
+00988,87,95,100,group D,female,master          ,standard,completed
+00989,51,53,45,group D,male  ,some high school,standard,none     
+00990,67,62,67,group D,male  ,associate       ,standard,completed
+00991,70,77,76,group C,female,some high school,standard,none     
+00992,72,77,77,group A,female,associate       ,standard,none     
+00993,75,67,67,group A,male  ,associate       ,reduced ,completed
+00994,83,74,80,group D,male  ,some high school,standard,none     
+00995,82,97,90,group B,female,associate       ,standard,none     
+00996,77,77,71,group C,male  ,some college    ,standard,none     
+00997,80,66,66,group C,male  ,some college    ,standard,none     
+00998,67,86,86,group A,female,high school     ,standard,completed
+00999,80,72,62,group E,male  ,high school     ,standard,none     
+01000,58,47,45,group D,male  ,high school     ,standard,none     
