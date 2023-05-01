@@ -141,15 +141,45 @@ JOIN "exam_scores" ON "demographics"."Student_ID" = "exam_scores"."Student_ID";
  ![image](https://user-images.githubusercontent.com/117245167/235139885-74493b98-d0b1-4dec-b0c7-129541afbb6f.png)
 
 ## Mock KNN
- - the initial KNN model produced an accuracy score `0.80, but this was the first model where i attempted hyperparameter tuning. See below. i was not able to achieve a comparable accuracy score to the logistic regression model though.
+ - he initial KNN model produced an accuracy score `0.80, but this was the first model where i attempted hyperparameter tuning. See below. i was not able to achieve a comparable accuracy score to the logistic regression model though.
  
  ![image](https://user-images.githubusercontent.com/117245167/235140467-2d91eff0-b348-4d1c-83b8-55cd1526c65f.png)
 
+## Optimizing the model based on EDA
+ - As a group we all worked on the EDA process and after our mock machine learning trials and applying them to our data we discovered a couple of optimization oppurtuniys. First we established the outliers in our data set. there were a toal of 9 scores in our data set between reading, writing, and math that feel below the lower Q1 limit (which can be seen above). Once thesewere identified we removed these from the data sets we used when optimizing our models. In addition, we ran feature correlation analysis on the 3 continuous features (math, reading, writing scores) and it was determined the reading and writing scores were statistically very similer to each other. With this being determined we decided to remove the weaker of the two in determining the math score, which was the writing_score.
+
+## Hyperparameter Tuning
+ - After analyzing the results of our mock machine learning models we narrowed the options for the model that we planned on using for our project to a logistic regression model and GradientBoosted_Classifier. the Logistic regression model had preformed the best in our mock trials. The GB_classifier i felt had a lot of promise if i was able to optimize the hyperparameters. This Model had multiple parameters to take in to consideration, and with the higher number of options i wanted to see if i could use them to achieve a higher accuracy result. I have an initial Hyperparameter tuning file which shows a side by side comparison of the mock models[Initial_Hyperparameter_tuning](https://github.com/Jess-Vannatter/Education_Group_Project-/blob/Jess_Dev/Hyperparameter_tuning/Initial_Hyperparameter_tuning.ipynb) , then a Hyperparameter tuning file which only compares the strongets models [Hyperparameter_tuning_best](https://github.com/Jess-Vannatter/Education_Group_Project-/blob/Jess_Dev/Hyperparameter_tuning/Hyperparameter_tuning_best_models.ipynb) , Logistic and GB_Classifier. Both of these are located in my "Hyperparmeter_Tuning file".
+
+### Grid_Hyperpara_Optimized_Logistic_Regression_Model
+ - Initially i had tried to optimize this model by manually changing the hyperparameters which took a long time and was not effective in yeilding a higher accuracy score. but after some research i was able to dig in to a couple of approachs that would cut down on time and allow us to run through essentially of the possible hyperparameter tuning by utilizung "GridSearchCV". This tool allows us to provide all the possible parameters in our code then by using GridSearchCV we apply our model to or data set and test all hyperparameter options to determine which sequence will yield the best accuracy results [Grid_Hyperpara_Optimized_Logistic_Regression_Model](https://github.com/Jess-Vannatter/Education_Group_Project-/blob/Jess_Dev/Hyperparameter_tuning/Grid_Hyperpara_Optimized_Logistic_Regression_Model.ipynb)  After utilizing the GridSaerchCVand testing the different Hyperparameters:
+ ```
+ param_grid = [    
+    {'penalty' : ['l1', 'l2', 'elasticnet', 'none'],
+    'C' : np.logspace(-4, 4, 20),
+    'solver' : ['lbfgs','newton-cg','liblinear','sag','saga'],
+    'max_iter' : [100, 1000,2500, 5000]
+    }
+]
+```
+We were able to come to the conclusion that our best possible sequesce was: ```LogisticRegression(C=1.623776739188721, solver='liblinear')``` .Which yeilded a 0.891 accuracy score.
+ 
+### Hypertune_G_Boost
+ - Similarly to the Logistic model, We utlized griSearchCV to tune the Hyperparameters for the GB_classifier model as well. AS compared to the logistic model though, The GB_Classifier had significantly more parameter options to choose from, or at least the range opf which the parameters could fall in:
+ ```
+ parameters = {
+    "n_estimators":[5,50,250,500],
+    'max_features':[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18],
+    "max_depth":[1,3,5,7,9],
+    "learning_rate":[0.01,0.1,1,10,100]
+}
+```
+Using the parameters above with the GridSaerchCV approach did take a decent amount of computing power and took over an hour to run. This resulted in our best sequence of GB_Classifier hyperparameters being ```Best parameters are: {'learning_rate': 0.1, 'max_depth': 1, 'max_features': 4, 'n_estimators': 250}``` and an accuracy score of 0.8842. Which you can see in the [Hypertune__Boost file](https://github.com/Jess-Vannatter/Education_Group_Project-/blob/Jess_Dev/Hyperparameter_tuning/Hypertune_G_Boost.ipynb).
 
 ## Optimized Logistic Regression Model and Feature Importances
- - We Chose the logistic regression model because it yeilded the highest accuracy score out of the 3 models tested. In order to optemize the model we really didint have many options since the data was already reletivily cleaned and balanced. What we were ablet o do is remove all outliers identified in the EDA process and try to see if removing the resampling process had any impact ot he overall accuracy score. Iniitlaly I just removed the outliers for the Math Scoresz, but that did not yeild a positive outcome (accuracy score slightly lowered). By removing the outliers from all scoreing features, including Math, Reading, and Writing we were able to achieve an accuracy ~ 90%. Although it was determined that re-sampling was not needed considering our data set we relativly balanced as is. in addition after runing voefficient correlation ont he 3 scores it was determined that the reading and Writing scores were very similer, so the weaker of the 2 (Reading score) was removed from the model. AFter removing the resampling and the reading_score from the model our linear regression model was able to achieve an accuracy score of ~88%.
+ - We Chose the logistic regression model because it yeilded the highest accuracy score out of the 6 initial mock models tested and in our HYperparameter tuning trials. In order to optemize the model we really didint have many options since the data was already reletivily cleaned and balanced. What we were ablet o do is remove all outliers identified in the EDA process and try to see if removing the resampling process had any impact ot he overall accuracy score. Iniitlaly I just removed the outliers for the Math Scoresz, but that did not yeild a positive outcome (accuracy score slightly lowered). By removing the outliers from all scoreing features, including Math, Reading, and Writing we were able to achieve an accuracy ~ 90%. Although it was determined that re-sampling was not needed considering our data set we relativly balanced as is. After the Hyperparameter tuning we were able to achieve ~89% accuracy score which was the highest wwe achieved between all models.
 
-![image](https://user-images.githubusercontent.com/117245167/234833428-2057a5e5-1e00-4c5a-b520-7d3ad817a0b0.png)
+![image](https://user-images.githubusercontent.com/117245167/235442340-248706d4-f32f-40d1-ba23-f8ddead1d052.png)
 
  - As a part of this analysis it was our goal to determine which features/ factors would best determine Math scores at or above the achievement threshold of 70. So in oredr to pin point the features that had the most impact on the math score prediction also obtained the "Feature Importances" of the Logistic Regression by generating the normalized coefficientsof each feature in the "X" array. Then printed the coefficients, along with their "Feature Names" in ascending order. See below, as well as in our Resources folder under the Feature_Importances.csv file.
 
