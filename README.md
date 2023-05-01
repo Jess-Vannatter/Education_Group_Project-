@@ -106,11 +106,11 @@ A function was created to print the outliers of the "Math_score" column, which w
   
   ![image](https://user-images.githubusercontent.com/117245167/233055852-b77a2337-7036-4366-94df-ff71700eb234.png)
 
-Addtional exploratory data analysis was conducted in Tableau to investigate data distribution, correlations, and patterns. A linear trend model was computed using the Math and Reading scores, producing the results seen in the images below. The data are strongly and positively correlated with a Pearson's R of 0.89 and a least squares regression line of prediceted math score = 17.86 + 0.77 (Reading Score). The coeffient of determination accounts for approximately 67% of the variance in the predicted Math Score.
+Addtional exploratory data analysis was conducted in Tableau to investigate data distribution, correlations, and patterns. A linear trend model was computed using the Math and Reading scores, producing the results seen in the images below. The data are strongly and positively correlated with a Pearson's R of 0.81 and a least squares regression line of prediceted math score = 20.25 + 0.739(Reading Score). The coeffient of determination accounts for approximately 66% of the variance in the predicted Math Score.
 
   ![image](https://github.com/Jess-Vannatter/Education_Group_Project-/blob/a81a12ce3aee275df7b47271cca4e76b2a1b2235/Resources/math%20v%20reading%20score%20eda.png)
   
-A linear trend model was computed using the Math and Writing scores, producing the results seen in the images below. The data are strongly and positively correlated with a Pearson's R of 0.82 and a least squares regression line of prediceted math score = 13.94 + 0.81 (Reading Score). The coeffient of determination accounts for approximately 82% of the variance in the predicted Math Score.
+A linear trend model was computed using the Math and Writing scores, producing the results seen in the images below. The data are strongly and positively correlated with a Pearson's R of 0.79 and a least squares regression line of prediceted math score = 17.12 + 0.766(Reading Score). The coeffient of determination accounts for approximately 82% of the variance in the predicted Math Score.
 
   ![image](https://github.com/Jess-Vannatter/Education_Group_Project-/blob/a81a12ce3aee275df7b47271cca4e76b2a1b2235/Resources/math%20v%20writing%20score%20eda.png)
 
