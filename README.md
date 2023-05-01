@@ -183,7 +183,7 @@ Using the parameters above with the GridSaerchCV approach did take a decent amou
 
  - As a part of this analysis it was our goal to determine which features/ factors would best determine Math scores at or above the achievement threshold of 70. So in oredr to pin point the features that had the most impact on the math score prediction also obtained the "Feature Importances" of the Logistic Regression by generating the normalized coefficientsof each feature in the "X" array. Then printed the coefficients, along with their "Feature Names" in ascending order. See below, as well as in our Resources folder under the Feature_Importances.csv file.
 
-![image](https://user-images.githubusercontent.com/117245167/234839148-784f74bc-fb2c-4c81-90c2-4d9b6a17e979.png)
+![Screenshot 2023-05-01 192959](https://user-images.githubusercontent.com/117245167/235549199-82ff53e2-9e90-4701-ad70-db7bfb7f058d.png)
 
  - Once the feature importances were determined we attempted to further optimize our model by cultivating the feature importances via a feature selection process. We tried removing feature importances with "importances" lower than 0.4 and the again at .02. Lastly we tried running the same logistic regression model after removing the 2 least important features as presented above but were not able to achieve an accuracy score greater than 86%. So it was determined that the features in the list above should remain in the model. You can see these attempts in my "Optimization_Trial_Error" folder.
 
