@@ -174,8 +174,9 @@ The same set of metrics is reported for Pass, and in this case, the precision, r
 
 ### Feature Importances
 
-  ![image](https://github.com/Jess-Vannatter/Education_Group_Project-/blob/e4b577141983c4e20dcab3f3debb92dce41a61b6/Resources/feature%20importances.png)
   ![image](https://github.com/Jess-Vannatter/Education_Group_Project-/blob/e4b577141983c4e20dcab3f3debb92dce41a61b6/Resources/featureimportance%20graph.png)
+  ![image](https://github.com/Jess-Vannatter/Education_Group_Project-/blob/e4b577141983c4e20dcab3f3debb92dce41a61b6/Resources/feature%20importances.png)
+
 
 These feature importances indicate the relative importance of each feature in predicting math achievement in the model. The features are ranked in descending order of their importance, with the most important feature listed first.
 
