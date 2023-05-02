@@ -11,17 +11,19 @@ The dataset that we chose is a simulated dataset that contains information on ma
 
 ## Analysis Question(s)
 Our primary question is : What factors best predict mathematics achievement/performance for High School Math Students?
+Our secondary question is: Are their differences in math achievement by different demographic factors?
 Additional, questions that we might be able to answer or shed some light on are as follows:
 
     - What factors indicate Mathematics achievement/Performance for High School Math Students
-    - What factors are more important, Student Factors, Environmental/Demographics, of Instructional (School Setting, Class Size, Co-Taught)
+    - What factors/features are more important, Student Factors, Environmental/Demographics, of Instructional (School Setting, Class Size, Co-Taught)
     - Are there any factors that are not present, but can be inferred based existing data?
-    - Are there any factors that we have believed intuitively , but show to be insignificant
+    - Are there any factors that we have believed intuitively , but show to be insignificant?
 
 ?
 
 ## Tools
 PostgreSQL
+R Studio
 Tableau
 Python Scikit Learn Library - Logistic Regression
 
