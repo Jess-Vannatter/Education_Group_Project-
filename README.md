@@ -37,6 +37,7 @@ Math Proficiency is lower for female students.  When ethnicity is considered, we
 
 ### Ethnicity
 Ethnic Group E has the highest level of Math Proficiency, at 71%. Group B has the lowest proficiency at 36%. 
+
 ### Parent's Level of Education
 In general we see that when Parent's level of education is above high school, there is a higher level of math proficiency regardless of ethnicity or gender. For Ethnic Group E, we also see that math proficiency peaks for PLE, some college and associates; however, math proficiency seems to decrease again with higher levels of parent education.
 
@@ -50,7 +51,7 @@ Within each ethnicity we can see a large disparity in math proficiency for stude
   1. Dataset - If we had to do this project all again, we would most likely pick a different data source in order to get more features/factors.  We initially started researching the NAEP data, but it turned about to be overwhelming because there was so much data.  Due to the time constraints of the project we decided to go with a more streamlined dataset.
   2. Data Cleaning - Our dataset was already very streamlined. Primarily, because it is simulated data.  After exploring the data and looking at the features/factors versus the dependent, Math Score, there were probably some additional grouping that we could have done on some of the categorical features. For example, some of the ethnicities seem to perform very similiar. 
   3. Data Cleaning - Again, if we had a dataset with more features, I could definitely see more time spent on data wrangling and being more selective about including features.  This is assuming we have a good number of features so that we have more to choose from.
-  4. Data Cleansing - Try Manual encoding to observe the impact on feature importance.
+  4. Data Cleansing - Explore Manual encoding vs. dummy variable encoding to observe the impact on feature importance.
 
 ## Model Usage
 While this model could be  useful for an educator to make general observations and instructional decisions for targeted classroom interventions; care must be given to other uses to avoid the possibility of tracking based on prohibited basis (ie. race/ethnicity, gender, age, etc.)
