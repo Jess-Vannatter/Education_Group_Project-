@@ -188,6 +188,5 @@ These feature importances indicate the relative importance of each feature in pr
 Link to Erica's tableau (https://public.tableau.com/views/MathAchievement_PieDashboard/Story1?:language=en-US&:display_count=n&:origin=viz_share_link); need to add analysis
 
 
-# Formal Presentation
-[Work-in-Progress](https://docs.google.com/presentation/d/1Kom-E46sPTH8pOhf19zlzoUs71fJabneA08JeBoC3dM/edit?usp=sharing)
+# [Formal Presentation](https://docs.google.com/presentation/d/1Kom-E46sPTH8pOhf19zlzoUs71fJabneA08JeBoC3dM/edit?usp=sharing)
 
