@@ -174,15 +174,13 @@ The same set of metrics is reported for Pass, and in this case, the precision, r
 
 ### Feature Importances
 
-  ![image](https://github.com/Jess-Vannatter/Education_Group_Project-/blob/725588875c64aae11a46200899b84b1a3d427606/feature%20importances.png)
+  ![image](https://github.com/Jess-Vannatter/Education_Group_Project-/blob/e4b577141983c4e20dcab3f3debb92dce41a61b6/Resources/feature%20importances.png)
+  ![image](https://github.com/Jess-Vannatter/Education_Group_Project-/blob/e4b577141983c4e20dcab3f3debb92dce41a61b6/Resources/featureimportance%20graph.png)
 
 These feature importances indicate the relative importance of each feature in predicting math achievement in the model. The features are ranked in descending order of their importance, with the most important feature listed first.
 
-According to the feature importances, the top 3 features that have the most impact on the target variable are:
-* Sex_female: This feature has the highest importance with a value of 0.174236.
-* Lunch_reduced: This feature has an importance of 0.127047. 
-* Test_Prep_completed: This feature has an importance of 0.122090.
-* Other features such as ethnicity, parental level of education, and individual test scores also contribute to predicting the target variable, but to a lesser extent.
+* From the output, we can see that the top 4 most important features, in descending order, are: Sex_female, Lunch_reduced, Test_Prep_completed, and Test_Prep_none. This suggests that these features have the greatest impact on math achievement, and should be considered when making predictions.
+* Other important features include Ethnicity, Parental Level of Education (PLE), and Reading Score. It's worth noting that some features have very low importance scores, such as Ethnicity_group E and Reading Score, indicating that they have little impact on math achievement.
 
 ## Question 2: Are there differences in math achievement by different demographic features?
 
