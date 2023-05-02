@@ -148,15 +148,15 @@ Lastly, the feature importances of the data set were pulled out and inspected to
 ## Question 1: What factors best predict mathematics achievement?
 
 ### Confusion Matrix
- ![image](https://github.com/Jess-Vannatter/Education_Group_Project-/blob/7b0b448b17920d7713585f473d423d21e73cf9ef/confusion%20matrix.png)
+ ![image](https://github.com/Jess-Vannatter/Education_Group_Project-/blob/57c3b474d9066e9e575a30e29e4990f89c7a3eba/Resources/confusion%20matrix.png)
 
 The confusion matrix, shown above, reveals the following:
-* The True Positives (TP) are the correct predictions of the "Pass" class - In this case, we have 113 true positives.
-* The False Positives (FP) are the incorrect predictions of the "Pass" class - In this case, we have 11 false positives.
-* The True Negatives (TN) are the correct predictions of the "Fail" class - In this case, we have 110 true negatives.
-* The False Negatives (FN) are the incorrect predictions of the "Fail" class - In this case, we have 14 false negatives.
+* The True Positives (TP) are the correct predictions of the "Pass" class - In this case, we have 108 true positives.
+* The False Positives (FP) are the incorrect predictions of the "Pass" class - In this case, we have 8 false positives.
+* The True Negatives (TN) are the correct predictions of the "Fail" class - In this case, we have 113 true negatives.
+* The False Negatives (FN) are the incorrect predictions of the "Fail" class - In this case, we have 19 false negatives.
 
-In summary, this confusion matrix indicates that the model correctly predicted 223 instances (110 true negatives + 113 true positives) and made 25 errors (11 false positives + 14 false negatives) in total. Additionally, the model appears to perform well overall since it has a high number of true positives and true negatives and a relatively low number of false positives and false negatives. 
+In summary, this confusion matrix indicates that the model correctly predicted 221 instances (113 true negatives + 1108 true positives) and made 27 errors (8 false positives + 19 false negatives) in total. Additionally, the model appears to perform well overall since it has a high number of true positives and true negatives and a relatively low number of false positives and false negatives.  
 
 ### Classification Report
  ![image](https://github.com/Jess-Vannatter/Education_Group_Project-/blob/7b0b448b17920d7713585f473d423d21e73cf9ef/classification%20report.png)
