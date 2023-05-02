@@ -185,7 +185,14 @@ These feature importances indicate the relative importance of each feature in pr
 
 ## Question 2: Are there differences in math achievement by different demographic features?
 
-Link to Erica's tableau (https://public.tableau.com/views/MathAchievement_PieDashboard/Story1?:language=en-US&:display_count=n&:origin=viz_share_link); need to add analysis
+[Link to Erica's tableau](https://public.tableau.com/shared/R3C5BQX2S?:display_count=n&:origin=viz_share_link) 
+### Overall Observations
+Math proficiency is: 
+* lower for females
+* lower for students receiving free or reduced lunch
+* highest for Ethnic Group E
+* increases as Parent Level of Education increases
+* higher for students who completed a test prep course 
 
 
 # [Formal Presentation](https://docs.google.com/presentation/d/1Kom-E46sPTH8pOhf19zlzoUs71fJabneA08JeBoC3dM/edit?usp=sharing)
