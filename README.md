@@ -159,18 +159,18 @@ The confusion matrix, shown above, reveals the following:
 In summary, this confusion matrix indicates that the model correctly predicted 221 instances (113 true negatives + 1108 true positives) and made 27 errors (8 false positives + 19 false negatives) in total. Additionally, the model appears to perform well overall since it has a high number of true positives and true negatives and a relatively low number of false positives and false negatives.  
 
 ### Classification Report
- ![image](https://github.com/Jess-Vannatter/Education_Group_Project-/blob/7b0b448b17920d7713585f473d423d21e73cf9ef/classification%20report.png)
+ ![image](https://github.com/Jess-Vannatter/Education_Group_Project-/blob/e5f58982a2f4100277829331e0a7c07ede71ef49/Resources/classification%20report.png)
  
 The classification report shows the precision, recall, specificity, F1-score, geometric mean, and index balanced accuracy (IBA) for each class as well as the average values across all classes.
 
-* The precision for Fail is 0.89, which means that out of all the predicted negatives, 89% of them are truly negative (true negatives / (true negatives + false negatives)).
-* The recall for Fail is 0.91, which means that out of all the true negatives, 91% of them are correctly identified as negative (true negatives / (true negatives + false positives)).
-* The specificity for Fail is 0.89, which means that out of all the actual negatives, 89% of them are correctly identified as negative (true negatives / (true negatives + false positives)).
-* The F1-score for Fail is 0.90, which is the harmonic mean of precision and recall, and is a measure of the classifier's overall accuracy for this class.
-* The geometric mean for Fail is 0.90, which is a measure of the classifier's overall ability to balance both recall and specificity.
-* The IBA for Fail is 0.81, which is a measure of the classifier's overall performance for this class.
+* The precision for Fail is 0.86, which means that out of all the predicted negatives, 89% of them are truly negative (true negatives / (true negatives + false negatives)).
+* The recall for Fail is 0.93, which means that out of all the true negatives, 91% of them are correctly identified as negative (true negatives / (true negatives + false positives)).
+* The specificity for Fail is 0.85, which means that out of all the actual negatives, 89% of them are correctly identified as negative (true negatives / (true negatives + false positives)).
+* The F1-score for Fail is 0.89, which is the harmonic mean of precision and recall, and is a measure of the classifier's overall accuracy for this class.
+* The geometric mean for Fail is 0.89, which is a measure of the classifier's overall ability to balance both recall and specificity.
+* The IBA for Fail is 0.80, which is a measure of the classifier's overall performance for this class.
 
-The same set of metrics is reported for Pass, and in this case, the precision, recall, specificity, F1-score, geometric mean, and IBA are 0.91, 0.89, 0.91, 0.90, 0.90, and 0.81, respectively. Finally, the average values across both classes are also reported in the report. In this case, the average precision, recall, specificity, F1-score, geometric mean, and IBA are 0.90, 0.90, 0.90, 0.90, 0.90, and 0.81, respectively. Overall, based on this report, the model appears to perform well for both classes with high precision, recall, and F1-score, indicating that it is able to accurately classify instances from both classes. 
+The same set of metrics is reported for Pass, and in this case, the precision, recall, specificity, F1-score, geometric mean, and IBA are 0.93, 0.85, 0.93, 0.89, 0.89, and 0.79, respectively. Finally, the average values across both classes are also reported in the report. In this case, the average precision, recall, specificity, F1-score, geometric mean, and IBA are 0.89, 0.89, 0.89, 0.89, 0.89, and 0.79, respectively. Overall, based on this report, the model appears to perform well for both classes with high precision, recall, and F1-score, indicating that it is able to accurately classify instances from both classes. 
 
 ### Feature Importances
 
