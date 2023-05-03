@@ -1,8 +1,9 @@
 # Education Group Project
 
 # Overview
+
 ## Topic
-The project will focus will focus on the education field, specifically mathematics achievement. Two of the three members are currently classroom teachers and are passionate about student learning. 
+The project will focus will focus on the education field, specifically mathematics achievement. Two of the three members are currently classroom teachers and are passionate about student learning. We were interested in creating a model that could be used to predict achievement so that students could be provided early and targeted intervention. 
 
 ## Questions
 * What factors best predict mathematics achievement?
@@ -39,6 +40,7 @@ The dataset that we chose is a simulated dataset that contains information on ma
 We created a small group channel in Slack. The expectation is that responses to a post is made by end of day. It is expected that group members would check Slack minimally, once per day. The protocol can be revisited during each class meeting to determine if it is meeting the group's needs. In addition, we created a Google Drive to house relevant Google Sheets, Google Slides, and Segment Rubrics. In addition, we have committed to using designated class time efficiently, ensuring roles and tasks are clear.
 
 # Data Exploration Phase
+
 ## Splitting Data
 Our initial data set came as one table. To meet project criteria, our goal was to split the data in to two tables containing demographic information of the students (Ethnicity, parental educational level, standard/ Free lunch (socio-eco), sex, and test preparation) and test scores (math, writing, and reading scores) respectively titled "demographics" and "exam_scores".  As a group, we discussed initial superficial updates to the data set including consistently naming columns. We also simplified naming of certain demographic descriptions for the sake of clarity. 
 
@@ -211,7 +213,7 @@ One of our goals with this project was to determine which features/ factors woul
 
 Once the feature importances were determined we attempted to further optimize our model by cultivating the feature importances via a feature selection process. We tried removing feature importances with "importances" lower than 0.4 and the again at .02. Lastly we tried running the same Logistic Regression model after removing the 2 least important features as presented above but were not able to achieve an accuracy score greater than 86%. So it was determined that the features in the list above should remain in the model. You can see these attempts in my "Optimization_Trial_Error" folder.
 
-# Result of Analysis for Q1
+# Result of Analysis
 
 ## Question 1: What factors best predict mathematics achievement?
 
