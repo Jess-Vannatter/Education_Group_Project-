@@ -1,4 +1,5 @@
 # Education Group Project
+# [Formal Presentation](https://docs.google.com/presentation/d/1Kom-E46sPTH8pOhf19zlzoUs71fJabneA08JeBoC3dM/present?slide=id.p1)
 
 # Overview
 
@@ -264,6 +265,4 @@ Math proficiency is:
 * increases as Parent Level of Education increases
 * higher for students who completed a test prep course 
 
-
-# [Formal Presentation](https://docs.google.com/presentation/d/1Kom-E46sPTH8pOhf19zlzoUs71fJabneA08JeBoC3dM/edit?usp=sharing)
 
