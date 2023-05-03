@@ -1,5 +1,4 @@
-# Education Group Project
-# [Formal Presentation](https://docs.google.com/presentation/d/1Kom-E46sPTH8pOhf19zlzoUs71fJabneA08JeBoC3dM/present?slide=id.p1)
+# Education Group Project ([Formal Presentation](https://docs.google.com/presentation/d/1Kom-E46sPTH8pOhf19zlzoUs71fJabneA08JeBoC3dM/present?slide=id.p1))
 
 # Overview
 
