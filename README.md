@@ -127,6 +127,8 @@ The distribution of Math Score data appears approximtely normal when divided by 
 
   ![image](https://github.com/Jess-Vannatter/Education_Group_Project-/blob/a81a12ce3aee275df7b47271cca4e76b2a1b2235/Resources/math%20distribution.png)
 
+# Analysis Phase for Q1
+
 ## Logistic_regression
 Please refer to "Mock_Logistic_Regression.ipynb". After analyzing the data, Jess ran an initial Logistic regression model to see if and how efficiently we would be able to determine the math scores of the students based on the features/ columns in the Student_exams data set/ table. The initial step taken for this was to convert the "Math_Score" column in to 1's and 0's based on the student's score in relation to being above/ below a score of 70. Scores of 70 or greater were assigned a 1 and anything below 70 was assigned a 0. Next Jess created the features and placed them into the X variable and the target feature (Math_score) into the y variable. He double checked the "X" dtypes and the value counts of "y". Once it was determined that the variables were correctly allocated, I instantiated the train_test_split and applied random oversampling to the data set. Next the model was trained on the data set and calculated the results (which can be seen below).
  
