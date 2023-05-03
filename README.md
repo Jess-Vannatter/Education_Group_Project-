@@ -143,35 +143,35 @@ Lastly, the feature importances of the data set were pulled out and inspected to
  ![image](https://user-images.githubusercontent.com/117245167/233062144-2e06cf76-72be-4dab-baf0-cbeeafd63cba.png)
 
 ## Mock Easy_Ensamble_AdaBoost
- - In Another attempt to compare models I wanted to test our data against an additional supervised Machine learning model. I did not optemize the data in any way and wanted to see what results we could get trying to predict the match scores using the Easy Ensamble AdaBoost method. The data was pre-processed very similerly to the previous two models and imported via the connection string linked to my SQL/ PGadmin account. The results below were similer to the balanced Random forrest classifier, but not as effective as the logistic regression model.
+In Another attempt to compare models, Jess tested our data against an additional supervised machine learning model. The data was not optimized in any way in order to see what results we could get trying to predict the match scores using the Easy Ensamble AdaBoost method. The data was pre-processed very similerly to the previous two models and imported via the connection string linked to my SQL/ PGadmin account. The results below were similer to the balanced Random forrest classifier, but not as effective as the logistic regression model.
 
 ![Screenshot 2023-04-22 081531](https://user-images.githubusercontent.com/117245167/233784159-21fa94a9-1d0c-4943-aa33-c71ac08c8c57.png)
 
 ## Mock SVM
- - THe SVM machine learning model was able to produce substantial results with an 0.884 accuracy score when predicting Math achievement. this should be noted and will be tested with optimized data and compared to the optimized  Logistic Regression model.
+The SVM machine learning model was able to produce substantial results with an 0.884 accuracy score when predicting Math achievement; this should be noted and will be tested with optimized data and compared to the optimized Logistic Regression model.
  
  ![image](https://user-images.githubusercontent.com/117245167/235138858-4691519d-e992-4cc5-ae5f-148c4d34d91c.png)
 
 ## Mock Gradient Boost
- - The gradient boosted model produced similer results but came up slightly short when compared to the Logistic rgression and SVM models. You can see the optimization attempts in the optimization_trial_error folder.
+The gradient boosted model produced similer results but came up slightly short when compared to the Logistic Regression and SVM models. You can see the optimization attempts in the optimization_trial_error folder.
  
  ![image](https://user-images.githubusercontent.com/117245167/235139474-67215baf-fe2a-4d99-9a51-4b22026c4b4e.png)
 
 ## Mock Decision Tree
- - The Decision tree model yeilded an accuracy score of 0.78 which when compared to the stronger models does not hold up.
+The Decision tree model yeilded an accuracy score of 0.78 which when compared to the stronger models does not hold up.
  
  ![image](https://user-images.githubusercontent.com/117245167/235139885-74493b98-d0b1-4dec-b0c7-129541afbb6f.png)
 
 ## Mock KNN
- - The initial KNN model produced an accuracy score `0.80, but this was the first model where i attempted hyperparameter tuning. See below. i was not able to achieve a comparable accuracy score to the logistic regression model though.
+The initial KNN model produced an accuracy score `0.80, but this was the first model where i attempted hyperparameter tuning. See below. i was not able to achieve a comparable accuracy score to the logistic regression model though.
  
  ![image](https://user-images.githubusercontent.com/117245167/235140467-2d91eff0-b348-4d1c-83b8-55cd1526c65f.png)
 
 ### Optimizing the model based on EDA
- - As a group we all worked on the EDA process and after our mock machine learning trials and applying them to our data we discovered a couple of optimization oppurtuniys. First we established the outliers in our data set. there were a toal of 9 scores in our data set between reading, writing, and math that feel below the lower Q1 limit (which can be seen above). Once thesewere identified we removed these from the data sets we used when optimizing our models. In addition, we ran feature correlation analysis on the 3 continuous features (math, reading, writing scores) and it was determined the reading and writing scores were statistically very similer to each other. With this being determined we decided to remove the weaker of the two in determining the math score, which was the writing_score.
+As a group we all worked on the EDA process and after our mock machine learning trials and applying them to our data we discovered a couple of optimization oppurtunities. First we established the outliers in our data set. There were a toal of 9 scores in our data set between reading, writing, and math that feel below the lower Q1 limit (discussed above). Once identified, we removed these from the data sets we used when optimizing our models. In addition, we ran feature correlation analysis on the 3 continuous features (math, reading, writing scores) and it was determined the reading and writing scores were statistically very similer to each other. With this being determined we decided to remove the weaker of the two in determining the math score, which was the writing_score.
 
 ## Hyperparameter Tuning
- - After analyzing the results of our mock machine learning models we narrowed down the options for the model that we planned on using for our project. Based on the initial Hyperparameter tuning, [Initial_Hyperparameter_tuning](https://github.com/Jess-Vannatter/Education_Group_Project-/blob/Jess_Dev/Hyperparameter_tuning/Initial_Hyperparameter_tuning.ipynb) the two top preforming models were the Logistic regression model and the GB_Classifier model. We have an initial Hyperparameter tuning file which shows a side by side comparison of the mock models[Initial_Hyperparameter_tuning](https://github.com/Jess-Vannatter/Education_Group_Project-/blob/Jess_Dev/Hyperparameter_tuning/Initial_Hyperparameter_tuning.ipynb) , then a Hyperparameter tuning file which only compares the strongets models [Hyperparameter_tuning_best](https://github.com/Jess-Vannatter/Education_Group_Project-/blob/Jess_Dev/Hyperparameter_tuning/Hyperparameter_tuning_best_models.ipynb) , Logistic and GB_Classifier. Both of these are located in my "Hyperparmeter_Tuning file".
+After analyzing the results of our mock machine learning models we narrowed down the options for the model that we planned on using for our project. Based on the initial Hyperparameter tuning, [Initial_Hyperparameter_tuning](https://github.com/Jess-Vannatter/Education_Group_Project-/blob/Jess_Dev/Hyperparameter_tuning/Initial_Hyperparameter_tuning.ipynb) the two top preforming models were the Logistic regression model and the GB_Classifier model. We have an initial Hyperparameter tuning file which shows a side by side comparison of the mock models[Initial_Hyperparameter_tuning](https://github.com/Jess-Vannatter/Education_Group_Project-/blob/Jess_Dev/Hyperparameter_tuning/Initial_Hyperparameter_tuning.ipynb) , then a Hyperparameter tuning file which only compares the strongets models [Hyperparameter_tuning_best](https://github.com/Jess-Vannatter/Education_Group_Project-/blob/Jess_Dev/Hyperparameter_tuning/Hyperparameter_tuning_best_models.ipynb) , Logistic and GB_Classifier. Both of these are located in my "Hyperparmeter_Tuning file".
 
 ### Grid_Hyperpara_Optimized_Logistic_Regression_Model
  - Initially i had tried to optimize this model by manually changing the hyperparameters which took a long time and was not effective in yeilding a higher accuracy score. but after some research i was able to dig in to a couple of approachs that would cut down on time and allow us to run through essentially of the possible hyperparameter tuning by utilizung "GridSearchCV". This tool allows us to provide all the possible parameters in our code then by using GridSearchCV we apply our model to or data set and test all hyperparameter options to determine which sequence will yield the best accuracy results [Grid_Hyperpara_Optimized_Logistic_Regression_Model](https://github.com/Jess-Vannatter/Education_Group_Project-/blob/Jess_Dev/Hyperparameter_tuning/Grid_Hyperpara_Optimized_Logistic_Regression_Model.ipynb)  After utilizing the GridSaerchCVand testing the different Hyperparameters:
