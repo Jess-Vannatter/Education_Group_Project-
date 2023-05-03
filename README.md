@@ -104,9 +104,9 @@ Based on our definition of a "passing" math score (70 or higher), a dataframe wa
   
   ![image](https://user-images.githubusercontent.com/117245167/233055155-1f8f22b6-0aac-4bb5-b07f-cee20cbde2c3.png)
 
-A function was created to print the outliers of the "Math_score" column, which when applied to the data set revealed 6 statistical outliers that were outside the lower fence using the Interquartile Rule.
+A function was created to print the outliers of the "Math_score", "Reading_Score", and "Writing Score" columns, which when applied to the data set revealed 6, 5, amd 5 statistical outliers, respectively, that were outside the lower fence using the Interquartile Rule.
   
-  ![image](https://user-images.githubusercontent.com/117245167/233055852-b77a2337-7036-4366-94df-ff71700eb234.png)
+  ![Screenshot 2023-04-23 094522](https://user-images.githubusercontent.com/117245167/233843411-b7d7851b-e0d1-4264-877d-3fa753ffd3ac.png)
 
 Addtional exploratory data analysis was conducted in Tableau to investigate data distribution, correlations, and patterns. A linear trend model was computed using the Math and Reading scores, producing the results seen in the images below. The data are strongly and positively correlated with a Pearson's R of 0.81 and a least squares regression line of prediceted math score = 20.25 + 0.739(Reading Score). The coeffient of determination accounts for approximately 66% of the variance in the predicted Math Score.
 
